@@ -1,0 +1,305 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/bg-website1.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left {
+    flex: 1;
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left h1 {
+    color: #211b59;
+    display: flex;
+    align-items: center;
+    font-size: 65px;
+}
+
+.left .bbc {
+    opacity: 0.5;
+}
+
+.titleHome {
+    color: #211b59;
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    font-size: 40px;
+}
+
+.paragraphHome {
+    color: #211b59;
+    font-family: 'Franklin Gothic Medium';
+    opacity: 0.7;
+}
+
+
+#btn-home {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #211B59;
+    color: ghostwhite;
+}
+
+#btn-home span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+#btn-home:hover span {
+    color: #fff;
+    z-index: 11;
+}
+
+#btn-home::before,
+#btn-home::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#btn-home::before {
+    content: "";
+    background: #0277B5;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+#btn-home:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logoHome {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.cta {
+    border: none;
+    background: none;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #211b59;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #211b59;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo-container img {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.logoDesign1 {
+    max-width: 220px;
+    height: auto;
+    top: -400px;
+    left: 280px;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.logoDesign2 {
+    max-width: 150px;
+    height: auto;
+    top: -420px;
+    left: 108px;
+    animation: floatAnimation 3s ease-in-out infinite 0.5s;
+}
+
+.logoDesign3 {
+    max-width: 180px;
+    height: auto;
+    top: -363px;
+    left: 210px;
+    animation: floatAnimation 3s ease-in-out infinite 1s;
+}
+
+.logoDesign4 {
+    max-width: 270px;
+    height: auto;
+    top: -405px;
+    left: 60px;
+    animation: floatAnimation 3s ease-in-out infinite 1.5s;
+}
+
+.logoDesign5 {
+    max-width: 300px;
+    height: auto;
+    top: -260px;
+    left: 195px;
+    animation: float Animation 3s ease-in-out infinite 2s;
+}
+
+.logoDesign6 {
+    max-width: 190px;
+    height: auto;
+    top: -270px;
+    left: 65px;
+    animation: floatAnimation 3s ease-in-out infinite 2.5s;
+}
+
+.logoDesign7 {
+    max-width: 220px;
+    height: auto;
+    top: -205px;
+    left: 120px;
+    animation: floatAnimation 3s ease-in-out infinite 3s;
+}
+
+.logoDesign8 {
+    max-width: 100px;
+    height: auto;
+    top: -190px;
+    left: 220px;
+    animation: floatAnimation 3s ease-in-out infinite 3.5s;
+}
+
+.logoHome {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .left {
+        padding: 15px;
+        margin-top: 130px;
+    }
+
+    .left h1 {
+        font-size: 45px;
+    }
+
+    .titleHome {
+        font-size: 25px;
+    }
+
+    .paragraphHome {
+        font-size: 13px;
+    }
+
+    .right {
+        padding: 15px;
+        align-self: center;
+        margin-top: -20px;
+    }
+
+    .logoHome {
+        display: none;
+    }
+
+    .logo-container {
+        display: none;
+    }
+
+    .cta span {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .hover-underline-animation {
+        padding-bottom: 8px;
+    }
+}

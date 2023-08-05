@@ -1,0 +1,190 @@
+{
+    "navbar": {
+        "programs": "Programmes",
+        "aboutUs": "A propos",
+        "ourMethodology": "Methodologie",
+        "login": "Login",
+        "letsTalk": "Parlons",
+        "Home": "Accueil",
+        "gbEnglish": "GB Anglais",
+        "frFrancais": "FR Français"
+    },
+    "home": {
+        "title": "Façonner l'avenir de l'éducation grâce à l'apprentissage décentralisé",
+        "description": "Libérez votre plein potentiel et propulsez votre carrière vers le niveau supérieur",
+        "button": "Programmes",
+        "buttonTwo": "En savoir plus sur l’école"
+    },
+    "programs": {
+        "titleSection": "Programmes",
+        "title": "Devenir un développeur Ethereum",
+        "description": "Ce cours vous permettra de devenir un développeur Ethereum compétent. Vous apprendrez les bases de la blockchain Ethereum, les langages de programmation utilisés pour développer des applications Ethereum, et vous serez initié aux outils et frameworks essentiels.",
+        "button": "Découvrir",
+        "buttonTwo": "Inscriptions ouvertes"
+    },
+    "roadmap": {
+        "title": "Votre parcours global",
+        "progress-content1": "Initiation gratuite depuis chez vous et à votre rythme",
+        "progress-content2": "Formation autogérée et encadrée par des instructeurs, en ligne ou sur le campus",
+        "progress-content3": "Double certification, NFT et certifications professionnelles",
+        "progress-content4": "Assistance fournie jusqu'à l'emploi ou le développement de votre start-up"
+    },
+    "AboutUs": {
+        "AboutUs": "A propos de nous",
+        "description": "est une école innovante de commerce numérique qui soutient les talents en formation sur les technologies de nouvelle génération telles que la Blockchain et l'IA. Notre mission est de construire les ponts qui nous mèneront vers un avenir meilleur. Nous sommes une équipe de professionnels et d'enthousiastes de l'innovation technologique qui croient fermement en le pouvoir de l'éducation décentralisée (DeEd) pour révolutionner l'expérience d'apprentissage."
+    },
+    "discord": {
+        "title": "Rejoignez nos +1600 membres sur notre Discord!",
+        "description": "Rejoignez plus de mille apprenants et apprenantes B<sup>2</sup>Academy au sein du serveur discord, soyez entouré pour progresser au sein de l'écosystème.",
+        "point1": "+1600 membres sur le seveur",
+        "point2": "+140 partenaires"
+    },
+    "methodology": {
+        "title": "Methodologie",
+        "description": "Chez B<sup>2</sup>Academy, nous révolutionnons la manière dont l'éducation est dispensée. Notre école de commerce numérique non conventionnelle s'engage à décentraliser l'éducation et à créer des opportunités pour les 99% restants. Nos programmes sont conçus pour être agiles et pratiques, offrant ainsi flexibilité et compatibilité avec votre vie professionnelle et familiale.",
+        "DecentralizedLwarning": "Rejoignez notre communauté inspirante et participez à une expérience d'apprentissage décentralisée avec vos pairs et vos enseignants lors de nos événements en direct.",
+        "Metaverse": "Notre campus en ligne dans le Metaverse est ouvert à tous les étudiants pour se joindre et se rencontrer à tout moment. C'est là que nous nous rassemblons pour nos événements en direct et nos présentations ouvertes, et c'est ouvert 24/7 !",
+        "FlexibleCurriculum": "Nos programmes offrent un curriculum flexible qui peut être complété à votre propre rythme sans perturber votre travail ou votre vie actuelle.",
+        "FlexibleCurriculum-point1": "Autogéré : En ligne/Campus",
+        "FlexibleCurriculum-point2": " Encadré par des instructeurs : En ligne/Campus",
+        "MicroLearning": "Le microapprentissage simplifie les sujets compliqués en courtes unités d'apprentissage, allant du niveau de base au niveau avancé.",
+        "NftCertification": "Une fois que vous avez terminé tous les cours, notre plateforme basée sur la Blockchain vous récompensera par un certificat NFT qui peut être exporté directement."
+    },
+    "newsletter": {
+        "title": "Ne manquez pas l'occasion, restez à jour",
+        "email": "Entrez votre email",
+        "button": "S'abonner"
+    },
+    "Fqa": {
+        "title": "Questions fréquemment posées",
+        "description": "vous ne trouvez pas la réponse que vous recherchez ? contactez-nous sur notre",
+        "question1": "SI JE M'INSCRIS AUJOURD'HUI, QUAND PUIS-JE COMMENCER ?",
+        "question2": "QUEL ENGAGEMENT HORAIRE LES PROGRAMMES DEMANDENT-ILS ?",
+        "question3": "Y A-T-IL UN NIVEAU MINIMUM D'ÉDUCATION OU DE CONNAISSANCES REQUIS ?",
+        "question4": "Y A-T-IL UNE CERTIFICATION FINALE ?",
+        "question5": "PUIS-JE SUIVRE UN PROGRAMME SI JE SUIS EN ÉTUDES OU EN ACTIVITÉ PROFESSIONNELLE ?",
+        "question6": "COMMENT PUIS-JE RÉSOUDRE MES QUESTIONS ?",
+        "question7": "Y A-T-IL DES PLANS POUR LES ENTREPRISES ?",
+        "question8": "COMMENT DEMANDER UNE FACTURE ?",
+        "answer1": "Vous pourrez accéder au contenu du programme à partir de la date d'ouverture (veuillez vérifier la date d'ouverture de chaque programme). Veuillez noter qu'à partir de ce moment, vous pouvez choisir quand commencer, car il n'est pas nécessaire de commencer dès la date d'ouverture.",
+        "answer2": "Nos programmes sont conçus pour prendre 3 à 5 heures par semaine, de la manière que l'étudiant préfère (par exemple, 30 minutes par jour). Cela inclut regarder des cours en vidéo et des événements en direct chaque semaine, ainsi qu'interagir avec la communauté. Nos étudiants mettent en moyenne de 2 à 4 mois pour terminer nos programmes et obtenir la certification.",
+        "answer3": "Non. Nos programmes sont conçus pour tous les niveaux. En fait, l'un des principaux aspects de l'éducation décentralisée est que nous pouvons tous apprendre les uns des autres, y compris des personnes ayant un niveau d'éducation antérieur très différent du nôtre.",
+        "answer4": "Oui. Lorsque vous terminez votre programme, vous pourrez télécharger et exporter votre certification sur votre profil Linkedin.",
+        "answer5": "Oui. Nous avons choisi la méthode du microlearning dans l'intention de la combiner avec vos études, votre travail et votre vie familiale.",
+        "answer6": "Chaque classe dispose d'un bouton pour envoyer vos questions par vidéo, texte ou audio. Vous recevrez les réponses directement de l'équipe d'enseignants par e-mail. De plus, vous pouvez vous inscrire aux Open Shows hebdomadaires pour partager vos apprentissages avec d'autres étudiants du programme.",
+        "answer7": "Oui. Nous avons des plans spécifiques pour les entreprises. Si vous êtes intéressé à mettre en œuvre l'un de nos programmes dans votre entreprise, veuillez écrire à Helena Juan, Directrice des Ventes, à helena@founderz.com.",
+        "answer8": "Veuillez nous envoyer un e-mail à hello@founderz.com avec vos informations fiscales et nous vous enverrons la facture dès que possible."
+    },
+    "footer": {
+        "Home": "Accueil",
+        "programs": "Programmes",
+        "aboutUs": "A propos",
+        "ourMethodology": "Methodologie",
+        "letsTalk": "Parlons",
+        "ContactUs": "Contactez-nous",
+        "terms and conditions": "Termes et conditions",
+        "Privacy policy": "Politique de confidentialité",
+        "Copyright": "Copyright © 2023 Blockchain Business Academy. Tous droits réservés."
+    },
+    "talk": {
+        "title": "Besoin de parler à un conseiller ?",
+        "description": "Les conseillers de B<sup>2</sup>Academy sont disponibles du lundi au vendredi pour vous soutenir dans votre projet de formation en blockchain et dans votre processus de financement.",
+        "button": "Prenez rendez-vous dès maintenant"
+    },
+    "Appointment": {
+        "title": "Planification de rendez-vous",
+        "description": "Obtenez un accompagnement pour votre projet de formation en blockchain avec nos conseillers ",
+        "email": "Bonjour@B2Academy.com"
+    },
+    "Bdp": {
+        "title": "Apprenez toutes les compétences pour développer une application blockchain",
+        "description": "Tirez parti de la technologie blockchain dans le développement d'applications",
+        "button": "Inscrivez-vous maintenant"
+    },
+    "NumberCountingSection": {
+        "counting-item1": "Décentralisé",
+        "counting-item2": "Micro-apprentissage",
+        "counting-item3": "Certification Double NFT",
+        "counting-item4": "et Hashgraph",
+        "counting-item5": "Pays",
+        "counting-item6": "Communauté mondiale",
+        "counting-item7": "Durée",
+        "counting-item8": "Mois flexibles"
+    },
+    "Brochure": {
+        "title": "Un programme de formation sur mesure",
+        "description": "Le programme de formation a été conçu pour vous fournir des connaissances condensées",
+        "description2": "pour satisfaire même les plus grandes curiosités.",
+        "button": "Téléchargez la brochure",
+        "email": "Entrez votre email",
+        "Terms and Conditions": "J'accepte les Conditions Générales d'Utilisation et la Politique de Confidentialité"
+    },
+    "Enrolltoday": {
+        "button": "Inscrivez-vous maintenant",
+        "title": "Inscrivez-vous dès aujourd'hui et devenez un expert dans les compétences les plus demandées"
+    },
+    "Business": {
+        "title": "B<sup>2</sup>Academy pour les Entreprises",
+        "description": "Contactez-nous et obtenez plus d'informations sur nos tarifs spéciaux pour les entreprises et les groupes",
+        "button": "Contactez-nous"
+    },
+    "advantages": {
+        "title": "Avantages",
+        "subtitle": "Grâce à cette formation, vous serez en mesure de : ",
+        "advantages-card": "Être embauché(e)",
+        "advantages-card-point1": "Vivre de votre passion",
+        "advantages-card-point2": "Augmenter vos revenus",
+        "advantages-card-point3": "Travailler dans un secteur prospère",
+        "advantages-card2": "Développer votre startup",
+        "advantages-card2-point1": "Accomplir votre projet",
+        "advantages-card2-point2": "Avoir des horaires flexibles",
+        "advantages-card2-point3": "Lever des fonds",
+        "subtitle2": "Voici quelques chiffres : ",
+        "advantages-card3-point1": "40 millions",
+        "advantages-card3-point2": "d'emplois dans la blockchain d'ici 2030",
+        "advantages-card4-point3": "20%",
+        "advantages-card4-point4": "du salaire dans le Web3",
+        "advantages-card5-point5": "2 milliards",
+        "advantages-card5-point6": "d'augmentation du PIB d'ici 2023",
+        "advantages-card6-point7": "40k€ - 90k€",
+        "advantages-card6-point8": "par an pour les développeurs blockchain",
+        "subtitle3": "Certification NFT : ",
+        "advantages-card-NFT": "Chacun de nos participants reçoit une double certification : Recevez votre certification NFT une fois que vous avez terminé le programme, et passez éventuellement un examen supplémentaire pour recevoir la certification Blockchain par Hedera Hashgraph (certification CHHD)."
+    },
+    "ProgramModules": {
+        "module1": "Module 1 : Introduction à la technologie blockchain",
+        "module1-description": "Bases de la blockchain Architecture décentralisée Transactions sécurisées",
+        "module2": "Module 2 : Fondamentaux d'Ethereum",
+        "module2-description": "Comprendre Ethereum Puissants contrats intelligents Créer des applications décentralisées",
+        "module3": "Module 3 : Application pratique d'Ethereum",
+        "module3-description": "Mise en œuvre pratique Interaction avec la blockchain Déploiement de contrats intelligents",
+        "module4": "Module 4 : Développement avec Solidity",
+        "module4-description": "Langage de programmation Solidity Conception de contrats intelligents Création d'applications Ethereum",
+        "module5": "Module 5 : Outils de développement",
+        "module5-description": "Utilisation d'outils populaires Test et déploiement des contrats Développement efficace",
+        "module6": "Module 6 : Tester votre application",
+        "module6-description": "Tests fonctionnels avancés Assurer la qualité du contrat Préparation au déploiement"
+    },
+    "ModalOverlayEnroll": {
+        "title": "Formulaire Développeur Blockchain",
+        "description": "Inscrivez-vous maintenant. Veuillez remplir le formulaire ci-dessous :",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "E-mail",
+        "phoneNumber": "Numéro de téléphone",
+        "Terms and Conditions": "J'accepte les Conditions générales d'utilisation et la Politique de confidentialité",
+        "errorMessage": "Veuillez accepter les Conditions générales d'utilisation et la Politique de confidentialité.",
+        "button": "Passer au paiement"
+    },
+    "ModalOverlayPrograms": {
+        "title": "Demandez plus d'informations sur nos programmes",
+        "description": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible.",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "E-mail",
+        "phoneNumber": "Numéro de téléphone",
+        "Terms and Conditions": "J'accepte les Conditions générales d'utilisation et la Politique de confidentialité",
+        "errorMessage": "Veuillez accepter les Conditions générales d'utilisation et la Politique de confidentialité.",
+        "button": "Envoyer"
+    }
+}

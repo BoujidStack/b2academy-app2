@@ -1,0 +1,201 @@
+{
+    "navbar": {
+        "programs": "Programs",
+        "aboutUs": "About Us",
+        "ourMethodology": "Our Methodology",
+        "login": "Login",
+        "letsTalk": "Let's Talk",
+        "Home": "Home",
+        "gbEnglish": "GB English",
+        "frFrancais": "FR Français"
+    },
+    "home": {
+        "title": "Shaping the future of education by using Decentralized Learning",
+        "description": "Unleash your full potential and take your career to the next level",
+        "button": "Programs",
+        "buttonTwo": "Learn more about the school"
+    },
+    "programs": {
+        "titleSection": "Programs",
+        "title": "Becoming a blockchain developer",
+        "description": "This course will enable you to become a competent blockchain developer. You will learn the basics of blockchain technology, the programming languages used to develop blockchain applications, and you will be introduced to essential tools and frameworks",
+        "button": "Discover more",
+        "buttonTwo": "Open Enrollment"
+    },
+    "roadmap": {
+        "title": "Your overall journey",
+        "progress-content1": "Free Initiation from your home and at your own pace",
+        "progress-content2": "Self-paced and Instructor-led training, On-line or on-Campus",
+        "progress-content3": "Dual Certification, NFT and Professional ones",
+        "progress-content4": "Support provided until employment or Startup development"
+    },
+    "AboutUs": {
+        "AboutUs": "About Us",
+        "description": "is an innovative Digital Business school that supports talents in training around the next-gen technologies like Blockchain and AI. Our mission is to build the bridges that will lead us to a better tomorrow. We are a team of tech innovation professionals and enthusiasts who strongly believe in the power of decentralized education (DeEd) to revolutionize the learning experience."
+    },
+    "discord": {
+        "title": "Join our +1600 members on our Discord!",
+        "description": "Join over a thousand B<sup>2</sup>Academy learners on our Discord server, and surround yourself with a supportive community to make progress within the ecosystem.",
+        "point1": "+1600 members on the server",
+        "point2": "+140 partners"
+    },
+    "methodology": {
+        "title": "Our Methodology",
+        "description": "At B<sup>2</sup>Academy, we are revolutionizing the way education is delivered. Our unconventional digital business school is committed to decentralizing education and creating opportunities for the other 99%. Our programs are designed to be agile and practical, allowing for flexibility and compatibility with your work and family life.",
+        "DecentralizedLwarning": "Join our inspiring community and engage in a decentralized learning experience with peers and teachers in our live events.",
+        "Metaverse": "Our online campus in the Metaverse is open for all students to join and meet anytime. there’s where we all gather around for our Live Events and Open Shows, and it's open 24/7!",
+        "FlexibleCurriculum": "Our programs offer a flexible curriculum that can be completed at your own pace without interrupting your current work or life.",
+        "FlexibleCurriculum-point1": "Self-paced : Online/Campus",
+        "FlexibleCurriculum-point2": "Instructor-led : Online/Campus",
+        "MicroLearning": "Microlearning simplifies complicated topics into short, learning units that go from basic to advanced levels.",
+        "NftCertification": "Once you complete all the courses, Our Blockchain-based platform will reward you with an NFT certificate which can be exported directly."
+    },
+    "newsletter": {
+        "title": "Don't miss out, stay up to date",
+        "email": "Enter your email",
+        "button": "Subscribe"
+    },
+    "Fqa": {
+        "title": "Frequently Asked Questions",
+        "description": "Can't find the answer you're looking for? Contact us on our",
+        "question1": "IF I SIGN UP TODAY, WHEN CAN I START?",
+        "question2": "WHAT TIME COMMITMENT DO THE PROGRAMS REQUIRE?",
+        "question3": "IS THERE A MINIMUM LEVEL OF PREVIOUS EDUCATION OR KNOWLEDGE?",
+        "question4": "IS THERE A FINAL CERTIFICATION?",
+        "question5": "CAN I DO A PROGRAM IF I AM STUDYING OR WORKING?",
+        "question6": "HOW CAN I RESOLVE MY QUESTIONS?",
+        "question7": "ARE THERE PLANS FOR COMPANIES?",
+        "question8": "HOW DO I REQUEST AN INVOICE?",
+        "answer1": "You will be able to access the program content from the opening date (please check each program for its opening date). Please note that from that moment, you can choose when to start, as there is no need to start right on the opening date.",
+        "answer2": "Our Programs are designed to take 3 to 5 hours a week, which can be in any way the student prefers (e.g., 30 minutes a day). This includes watching video classes and weekly live events, as well as interacting with the community. Our students take an average of 2 to 4 months to complete our programs and get the certification.",
+        "answer3": "No. Our programs are designed for all levels. In fact, one of the key components of decentralized education is that we can all learn from each other, including people with a level of previous education that is very different from our own.",
+        "answer4": "Yes. When you complete your program you will be able to download and export your certification to your Linkedin profile.",
+        "answer5": "Yes. We have chosen the microlearning method with the intention that it can be combined with your studies, work and family.",
+        "answer6": "Each class has a button to send your questions by video, text or audio. You will receive the answers directly from the team of teachers by email. In addition, you can sign up for the weekly Open Shows to share your learning with other students on the program.",
+        "answer7": "Yes. We have specific plans for companies. If you are interested in implementing one of our programs in your company, please write to Helena Juan, Director of Sales, at helena@B2Academy.com.",
+        "answer8": "Please send us an e-mail to hello@B2Academy.com with your tax information and we will send you the invoice as soon as possible."
+    },
+    "footer": {
+        "Home": "Home",
+        "programs": "Programs",
+        "aboutUs": "About Us",
+        "ourMethodology": "Our Methodology",
+        "letsTalk": "Let's Talk",
+        "ContactUs": "Contact Us",
+        "Privacy policy": "Privacy policy",
+        "terms and conditions": "Terms and conditions",
+        "Copyright": "Copyright © 2023 Blockchain Business Academy All rights reserved."
+    },
+    "talk": {
+        "title": "Need to speak with an advisor ?",
+        "description": "B<sup>2</sup>Academy's advisors are available from Monday to Friday to support you on your blockchain training project and your financing process.",
+        "button": "Schedule an appointment now"
+    },
+    "Appointment": {
+        "title": "Appointment scheduling",
+        "description": "Get accompanied on your blockchain training project with",
+        "email": "Hello@B2Academy.com"
+    },
+    "Bdp": {
+        "title": "Learn all the skills to develop a blockchain application",
+        "description": "Leverage blockchain technology in application development",
+        "button": "Enroll Now"
+    },
+    "NumberCountingSection": {
+        "counting-item1": "Decentralized",
+        "counting-item2": "Micro-learning",
+        "counting-item3": "Dual Certification NFT",
+        "counting-item4": "& Hashgraph",
+        "counting-item5": "Countries",
+        "counting-item6": "Global Community",
+        "counting-item7": "Duration",
+        "counting-item8": "Flexible Months"
+    },
+    "Brochure": {
+        "title": "A tailor-made training program",
+        "description": "The training program has been designed to provide you with a condensed knowledge",
+        "description2": "to satisfy even the greatest curiosities.",
+        "button": "Retrieve the brochure",
+        "email": "Enter your email",
+        "Terms and Conditions": "I accept the Terms and Conditions and the Privacy Policy"
+    },
+    "Enrolltoday": {
+        "button": "Enroll Now",
+        "title": "Enroll today and become an expert in the most demanded skills"
+    },
+    "Business": {
+        "title": "B<sup>2</sup>Academy for Business",
+        "description": "Contact us and get more information about our special rates for Businesses and groups",
+        "button": "Contact us"
+    },
+    "advantages": {
+        "title": "Advantages",
+        "subtitle": "Through this training, you will be able to : ",
+        "advantages-card": "Be Hired",
+        "advantages-card-point1": "Live off your passion",
+        "advantages-card-point2": "Increase your income",
+        "advantages-card-point3": "Work in a thriving sector",
+        "advantages-card2": "Develop Your Startup",
+        "advantages-card2-point1": "Accomplish your project",
+        "advantages-card2-point2": "Have flexible hours",
+        "advantages-card2-point3": "Raise funds",
+        "subtitle2": "Here are some Key Insights : ",
+        "advantages-card3-point1": "40 million",
+        "advantages-card3-point2": "jobs in blockchain by 2030",
+        "advantages-card4-point3": "20%",
+        "advantages-card4-point4": "increase in salary in Web3",
+        "advantages-card5-point5": "2 billion",
+        "advantages-card5-point6": "increase in GDP by 2023",
+        "advantages-card6-point7": "40k€ - 90k€",
+        "advantages-card6-point8": "per year compensation for blockchain developers",
+        "subtitle3": "NFT Certification : ",
+        "advantages-card-NFT": "Each of our participants receives a Dual Certification : Receive your NFT certification once you complete the program, and optionally pass an additional exam and receive the Blockchain certification by Hedera Hashgraph (CHHD certification)"
+    },
+    "ProgramModules": {
+        "module1": "Module 1 : Introduction to Blockchain Technology",
+        "module1-description": "Bases of the blockchain Decentralized architecture Secure transactions",
+        "module2": "Module 2 : Fundamentals of Ethereum",
+        "module2-description": "Understanding Ethereum Powerful smart contracts Creating decentralized applications",
+        "module3": "Module 3 : Ethereum Practical Application",
+        "module3-description": "Practical implementation Interacting with the blockchain Deploying smart contracts",
+        "module4": "Module 4 : Development with Solidity",
+        "module4-description": "Solidity programming language Designing smart contracts Creating Ethereum applications",
+        "module5": "Module 5 : Development Tools",
+        "module5-description": "Using popular tools Testing and deploying contracts Efficient development",
+        "module6": "Module 6 : Testing Your Application",
+        "module6-description": "Advanced functional testing Ensuring contract quality Preparation for deployment"
+    },
+    "ModalOverlayEnroll": {
+        "title": "Blockchain Developer Form",
+        "description": "Sign up now. Please fill out the form below:",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phoneNumber": "Phone Number",
+        "Terms and Conditions": "I accept the Terms and Conditions and the Privacy Policy",
+        "errorMessage": "Please accept the Terms and Conditions and the Privacy Policy.",
+        "button": "Proceed to payment"
+    },
+    "ModalOverlayBusinesses": {
+        "title": "Train Your Team On The Skills Of The Future",
+        "description": "Get more information about our reduced rates for Businesses. Please fill out the following form and we will get in touch soon:",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phoneNumber": "Phone Number",
+        "Terms and Conditions": "I accept the Terms and Conditions and the Privacy Policy",
+        "errorMessage": "Please accept the Terms and Conditions and the Privacy Policy.",
+        "button": "Send"
+    },
+    "ModalOverlayPrograms": {
+        "title": "Request more information about our programs",
+        "description": "Fill out the following form and we will get in touch with you as soon as possible.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phoneNumber": "Phone Number",
+        "Terms and Conditions": "I accept the Terms and Conditions and the Privacy Policy",
+        "errorMessage": "Please accept the Terms and Conditions and the Privacy Policy.",
+        "button": "Send"
+    }
+}

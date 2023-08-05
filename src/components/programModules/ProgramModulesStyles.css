@@ -1,0 +1,240 @@
+.programModules {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../assets/programModules-bg.png') no-repeat center center/cover;
+  position: relative; 
+}
+  
+  .programModulesImage {
+    margin-left: 150px;
+    margin-top: -50px;
+    animation: floatAnimation 2s ease-in-out infinite 3.5s;
+  }
+  
+  .programModulesImageRight {
+    position: absolute; 
+    margin-left: 70rem;
+    margin-top: -25.5rem;
+    animation: floatAnimation 2s ease-in-out infinite 2.5s;
+
+  }
+
+  .programModuleslignes{
+    margin-left: -200px;
+    margin-top: -4rem;
+    position: absolute; 
+  }
+
+
+ 
+  #rocket-icon {
+    width: 140px;
+    transform: rotate(-10deg);
+    margin-top: 165px; 
+    margin-left: 415px; 
+  }
+  
+  .content-modules {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -250px;
+    width: 200px;
+    margin-left: 240px; 
+  }
+  
+  .content-modules h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #0580C2;
+
+  }
+  
+  .content-modules p {
+    font-size: 10px;
+    color: #211B59;
+  }
+  
+  .content-modulesTwo{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 8.5rem;
+    width: 200px;
+    margin-left: 33rem;
+  }
+
+  .content-modulesTwo h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #0580C2;
+
+  }
+  
+  .content-modulesTwo p {
+    font-size: 10px;
+    color: #211B59;
+  }
+
+
+  .content-modulesThree{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -25rem;
+    width: 200px;
+    margin-left: 45rem;
+  }
+
+  .content-modulesThree h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #0580C2;
+
+  }
+  
+  .content-modulesThree p {
+    font-size: 10px;
+    color: #211B59;
+  }
+
+
+
+  .content-modulesFourth{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 7rem;
+    width: 200px;
+    margin-left: 55rem;
+  }
+
+  .content-modulesFourth h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #0580C2;
+  }
+  
+  .content-modulesFourth p {
+    font-size: 10px;
+    color: #211B59;
+  }
+
+  .content-modulesFive{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -27rem;
+    width: 200px;
+    margin-left: 62.7rem;
+  }
+
+  .content-modulesFive h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #0580C2;
+  }
+  
+  .content-modulesFive p {
+    font-size: 10px;
+    color: #211B59;
+  }
+
+
+  .content-modulessix{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 6.5rem;
+    width: 200px;
+    margin-left: 70rem;
+  }
+
+  .content-modulessix h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #0580C2;
+  }
+  
+  .content-modulessix p {
+    font-size: 10px;
+    color: #211B59;
+  }
+
+
+  @media (max-width: 768px) {
+  .programModulesImage {
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .programModulesImageRight {
+    margin-left: 11rem;
+    margin-top: 11rem;
+    width: 550px;
+    height: 550px;
+  }
+
+  .programModuleslignes {
+   display: none;
+  }
+
+  #rocket-icon {
+    display: none;
+  }
+
+  .content-modules,
+  .content-modulesTwo,
+  .content-modulesThree,
+  .content-modulesFourth,
+  .content-modulesFive,
+  .content-modulessix {
+    width: 60%;
+    margin: 1rem auto; 
+    z-index: 10;
+  }
+  
+
+  .programModules::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #0580C2;
+    border-radius: 1px;
+    z-index: -1;
+  }
+  
+  .programModules::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 70%;
+    background-color: #0580C2;
+    border-radius: 1px;
+    z-index: 0;
+    margin-top: 15rem;
+  }
+  
+  .programModules::before {
+    background-image: linear-gradient(to bottom, transparent 50%, #ccc 50%);
+    background-size: 100% 20px;
+  }
+}

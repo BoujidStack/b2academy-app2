@@ -1,0 +1,161 @@
+.enrolltoday {
+	width: 100%;
+	height: 80vh;
+	background: url('../../assets/bg-website.png') no-repeat center center/cover;
+	display: flex;
+	align-items: center;
+
+}
+
+
+.titleenrolltoday {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #211b59;
+}
+
+
+.containerEnrolltoday {
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+	margin-right: 100px;
+}
+
+.content-sectionEnrolltoday {
+    float: left;
+    width: 100%; /* Adjust the width to 100% for smaller screens */
+    color: #211b59;
+    }
+
+#Enrolltoday-btn {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #211B59;
+    color: ghostwhite;
+}
+
+#Enrolltoday-btn span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+#Enrolltoday-btn:hover span {
+    color: #fff;
+    z-index: 11;
+}
+
+#Enrolltoday-btn::before,
+#Enrolltoday-btn::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#Enrolltoday-btn::before {
+    content: "";
+    background: #0277B5;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+#Enrolltoday-btn:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+@media screen and (min-width: 768px) {
+    .containerEnrolltoday {
+      width: 80%;
+      margin-right: 100px;
+    }
+  
+    .content-sectionEnrolltoday {
+      width: 55%;
+    }
+  
+    .image-section {
+      display: block;
+      width: 45%;
+      margin-top: 20px;
+    }
+  
+    .image-section img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+
+
+    .enrolltoday {
+      width: 100%;
+      height: 130vh;
+    }
+
+    .containerEnrolltoday {
+      width: 90%;
+      margin-right: 0;
+    }
+  
+    .content-sectionEnrolltoday {
+      width: 100%;
+    }
+  
+    .image-section {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .image-section img {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+  .containerEnrolltoday {
+    width: 80%;
+    margin-right: 100px;
+  }
+
+  .content-sectionEnrolltoday {
+    width: 55%;
+  }
+
+  .image-section {
+    display: block;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+    margin-left: 50px; 
+    margin-top: -80px;
+  }
+}

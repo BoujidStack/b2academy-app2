@@ -1,0 +1,82 @@
+.appointment {
+    width: 100%;
+    height: 70vh;
+    background: url('../../assets/bg-website.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.appointment .calendly-inline-widget {
+    width: 80rem;
+    height: 800px;
+}
+
+.schedulingAppointment{
+    transform: scale(0.6);
+    margin-top: 150px;
+}
+
+
+.appointment h1,
+.appointment p,
+.appointment .contact-info {
+    text-align: left;
+    margin-left: 150px;
+    width: 77%;
+    padding: 10px;
+    color: #211B59;
+}
+
+
+.appointment h1{
+    width: 124%;
+}
+ 
+
+
+
+
+.appointment-details .appointment .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.appointment .contact-info svg {
+    margin-right: 10px;
+}
+
+.appointment .contact-info .email {
+    margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .appointment {
+        height: 90vh;
+
+    }
+
+    .appointment h1,
+    .appointment p,
+    .appointment .contact-info {
+        margin-left: 20px;
+    }
+    .schedulingAppointment{
+        transform: scale(0.4);
+        margin-left: -720px;
+        margin-top: 630px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .appointment h1,
+    .appointment p,
+    .appointment .contact-info {
+        margin-left: 10px;
+    }
+    
+}

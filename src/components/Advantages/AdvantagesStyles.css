@@ -1,0 +1,168 @@
+.advantages-container {
+  text-align: center;
+  background: url('../../assets/bg-website.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-advantages {
+  margin-top: 100px; 
+}
+
+.advantages-title {
+  color: #211b59;
+}
+
+.advantages-subtitle {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #211b59;
+  text-align: center;
+}
+
+.advantages-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.advantages-card {
+  flex: 0 0 350px;
+  padding: 20px;
+  background-color: #C6EEFF;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.advantages-card-NFT {
+  background-color: #C6EEFF;
+  border-radius: 15px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 720px;
+  height: 200px;
+}
+
+.advantages-card-NFT h4{
+  font-size: 14px;
+  margin-right: 50px;
+  color: #211b59;
+}
+
+.advantages-card-NFT h4 strong {
+  font-weight: bold;
+}
+
+.advantages-card h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.advantages-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.advantages-card img {
+  margin-right: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.advantages-card span {
+  flex-grow: 1;
+}
+
+.advantages-card p {
+  font-size: 20px;
+}
+
+.advantages-card:nth-child(1) h3,
+.advantages-card:nth-child(2) h3 {
+  background-color: #0277B5;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.advantages-card h4{
+  color: #211b59;
+  font-size: 14px;
+}
+
+.advantages-card h2{
+  color: #211b59;
+}
+
+@media (max-width: 768px) {
+  .advantages-container {
+    text-align: center;
+    width: 100%;
+    min-height: 160vh;
+  }
+
+  .advantages-card {
+    margin-bottom: 20px; 
+  }
+
+
+  .advantages-subtitle {
+    font-size: 18px;
+  }
+
+  .advantages-card {
+    flex: 0 0 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .advantages-card h3 {
+    font-size: 24px;
+  }
+
+  .advantages-card ul {
+    font-size: 16px;
+  }
+
+  .advantages-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .advantages-card-NFT {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .advantages-card-NFT img {
+    transform: scale(1.8);
+  }
+  
+
+  .advantages-card-NFT h4 {
+    font-size: 14px;
+    margin-right: 0;
+    text-align: center;
+  }
+}
