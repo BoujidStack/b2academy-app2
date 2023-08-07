@@ -261,6 +261,7 @@
 @media screen and (max-width: 540px) {
     .home {
         flex-direction: column;
+        width: 150%;
     }
 
     .left {
@@ -269,15 +270,16 @@
     }
 
     .left h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .titleHome {
-        font-size: 25px;
+        font-size: 20px;
+        max-width: 60%;
     }
 
     .paragraphHome {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .right {
@@ -295,11 +297,15 @@
     }
 
     .cta span {
-        font-size: 10px;
+        font-size: 8px;
         padding-right: 10px;
     }
 
     .hover-underline-animation {
         padding-bottom: 8px;
+    }
+
+    #btn-home {
+        font-size: 12px;
     }
 }
