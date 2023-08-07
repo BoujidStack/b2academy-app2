@@ -230,3 +230,10 @@ footer .bottom-details .bottom_text {
         width: calc(100% / 2 - 10px);
     }
 }
+
+
+@media screen and (max-width: 540px) {
+	footer {
+		width: 150%;
+	}
+}

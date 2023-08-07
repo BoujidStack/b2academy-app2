@@ -157,3 +157,10 @@
 
   
 }
+
+
+@media screen and (max-width: 540px) {
+	.programs {
+		width: 150%;
+	}
+}

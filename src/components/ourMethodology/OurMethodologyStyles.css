@@ -3,8 +3,7 @@
     height: 100vh;
     background: url('../../assets/bg-website.png') no-repeat center center/cover;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .section{
@@ -173,7 +172,11 @@ margin-top: 20px;
 
 
 
-
+@media screen and (max-width: 540px) {
+	.ourMethodology {
+		width: 150%;
+	}
+}
 
 
 

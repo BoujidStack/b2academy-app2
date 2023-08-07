@@ -185,6 +185,7 @@
     }
 }
 
+
 @media (max-width: 768px) {
     #progress-bar-container {
       width: 100%;
@@ -192,3 +193,10 @@
     }
   }
   
+
+  
+@media screen and (max-width: 540px) {
+	.aboutUs {
+		width: 150%;
+	}
+}
