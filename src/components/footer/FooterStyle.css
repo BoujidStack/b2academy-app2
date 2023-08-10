@@ -188,6 +188,11 @@ footer .bottom-details .bottom_text {
 @media (max-width: 700px) {
     footer {
         position: relative;
+        min-width: 196.5%;
+    }
+
+    .content{
+        width: 80%;
     }
 
     .content .top .logo-details {
@@ -232,8 +237,3 @@ footer .bottom-details .bottom_text {
 }
 
 
-@media screen and (max-width: 540px) {
-	footer {
-		width: 150%;
-	}
-}

@@ -132,6 +132,7 @@ margin-top: 20px;
 
 	.ourMethodology {
 		height: 120vh;
+		min-width: 196.5%;
 	}
 	.image-section {
 		display: none;
@@ -172,14 +173,13 @@ margin-top: 20px;
 
 
 
-@media screen and (max-width: 540px) {
-	.ourMethodology {
-		width: 150%;
-	}
-}
 
 
-
+@media only screen and (max-width: 640px) {
+    .ourMethodology {
+      height: 170vh;
+    }
+  }
 
 
 

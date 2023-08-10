@@ -48,7 +48,7 @@
   margin-bottom: 10px;
 }
 
-#container .product-details > p {
+#container .product-details>p {
   text-align: center;
   font-size: 22px;
   color: #211b59;
@@ -136,7 +136,8 @@
 
 @media (max-width: 768px) {
   .programs {
-    padding: 20px;
+    min-width: 200%;
+    flex-direction: row;
   }
 
   #container {
@@ -153,14 +154,5 @@
     width: 100%;
     left: 0;
   }
-  
 
-  
-}
-
-
-@media screen and (max-width: 540px) {
-	.programs {
-		width: 150%;
-	}
 }

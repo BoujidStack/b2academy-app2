@@ -134,6 +134,7 @@
 @media (max-width: 768px) {
   .faq-container {
     padding: 2rem;
+    min-width: 196.5%;
   }
 
   .container-content {
@@ -141,14 +142,9 @@
   }
 
   .accordion .accordion-item {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 }
 
 
-@media screen and (max-width: 540px) {
-	.faq-container {
-		width: 150%;
-	}
-}

@@ -187,6 +187,10 @@
 
 
 @media (max-width: 768px) {
+    .RoadMap {
+        min-width: 200%;
+      }
+
     #progress-bar-container {
       width: 100%;
       margin-left: 0;
@@ -194,9 +198,10 @@
   }
   
 
+  @media only screen and (max-width: 640px) {
+    .RoadMap {
+      min-width: 200%;
+      height: 170vh;
+    }
+  }
   
-@media screen and (max-width: 540px) {
-	.aboutUs {
-		width: 150%;
-	}
-}

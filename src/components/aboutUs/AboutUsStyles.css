@@ -156,6 +156,7 @@
 
 	.aboutUs {
 		height:100vh;
+		min-width: 196.5%;
 	}
 
 	.containerAboutUs {
@@ -204,8 +205,9 @@
 
 }
 
-@media screen and (max-width: 540px) {
-	.aboutUs {
-		width: 150%;
-	}
-}
+@media only screen and (max-width: 640px) {
+    .aboutUs {
+      height: 170vh;
+    }
+  }
+  

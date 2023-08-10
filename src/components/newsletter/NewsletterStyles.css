@@ -126,10 +126,12 @@
 
 
 @media (max-width: 768px) {
+    .newsletter{
+        min-width: 200%;
+    }
     .newsletter-title {
         font-size: 30px; 
     }
-}
 
 .newsletter-input {
     display: flex;
@@ -137,14 +139,11 @@
     margin-bottom: 20px; 
 }
 
-
-
-@media (max-width: 700px) {
-    .newsletter {
-        position: relative;
-        width: 150vw;
-        left: 75%;
-        transform: translateX(-50%);
-        background-size: 150% 100%;
-    }
 }
+
+
+@media only screen and (max-width: 640px) {
+    .newsletter {
+      height: 170vh;
+    }
+  }

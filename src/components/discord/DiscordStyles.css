@@ -124,13 +124,16 @@
         flex-direction: column;
         align-items: center;
         height: 120vh;
+        min-width: 196.5%;
+
     }
 
     .discord-content {
-        max-width: 100%;
+        max-width: 80%;
         margin-right: 0;
         height: auto;
         margin-bottom: 15rem;
+        
     }
 
     .discord-content p {
@@ -151,8 +154,9 @@
     }
 }
 
-@media screen and (max-width: 540px) {
-	.discord {
-		width: 150%;
-	}
-}
+
+@media only screen and (max-width: 640px) {
+    .discord {
+      height: 170vh;
+    }
+  }
