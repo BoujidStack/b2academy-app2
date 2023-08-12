@@ -61,9 +61,9 @@ const ProgramModules = () => {
 
   return (
     <div name="programModules" className="programModules">
-      <div data-aos="fade-down" data-aos-duration="1000"><img src={planet1} alt="planet1" width={300} height={300} className="programModulesImage"/></div>
-      <div data-aos="fade-left" data-aos-duration="1000"><img src={planet2} alt="planet2" width={700} height={700} className="programModulesImageRight"/></div>
-      <img src={lignes} alt="lignes" width={2000} height={1000} className="programModuleslignes" data-aos="zoom-in" data-aos-duration="1000"/>
+      <div data-aos="fade-down" data-aos-duration="1000"><img src={planet1} alt="planet1" width={300} height={300} className="programModulesImage" /></div>
+      <div data-aos="fade-left" data-aos-duration="1000"><img src={planet2} alt="planet2" width={700} height={700} className="programModulesImageRight" /></div>
+      <img src={lignes} alt="lignes" width={2000} height={1000} className="programModuleslignes" data-aos="zoom-in" data-aos-duration="1000" />
       <div data-aos="zoom-in" data-aos-duration="1000">
         <svg id="rocket-icon" viewBox="0 0 75 75" ref={rocketRef} >
           <polygon fill="#0277B5" points="18 21 35 21 44 30 27 30" />

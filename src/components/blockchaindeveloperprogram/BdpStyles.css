@@ -40,6 +40,9 @@
   }
   
   @media (max-width: 768px) {
+    .Bdp {
+      min-width: 196.5%;
+    }
     .title-Bdp {
         font-size: 3rem;
     }

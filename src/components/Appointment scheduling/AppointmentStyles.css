@@ -14,7 +14,7 @@
     height: 800px;
 }
 
-.schedulingAppointment{
+.schedulingAppointment {
     transform: scale(0.6);
     margin-top: 150px;
 }
@@ -31,10 +31,10 @@
 }
 
 
-.appointment h1{
+.appointment h1 {
     width: 124%;
 }
- 
+
 
 
 
@@ -56,27 +56,15 @@
 @media (max-width: 768px) {
     .appointment {
         height: 90vh;
-
+        min-width: 196.5%;
     }
 
-    .appointment h1,
-    .appointment p,
-    .appointment .contact-info {
-        margin-left: 20px;
+    .schedulingAppointment {
+        transform: scale(0.5);
+        margin-left: -45rem;
+        margin-top: 50rem;
     }
-    .schedulingAppointment{
-        transform: scale(0.4);
-        margin-left: -720px;
-        margin-top: 630px;
-    }
-}
 
-@media (max-width: 480px) {
-
-    .appointment h1,
-    .appointment p,
-    .appointment .contact-info {
-        margin-left: 10px;
-    }
     
 }
+

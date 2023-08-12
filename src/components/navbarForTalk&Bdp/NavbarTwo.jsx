@@ -7,7 +7,7 @@ import './NavbarTwoStyles.css';
 
 import { Link } from 'react-scroll';
 
-function NavbarTwoComponent() {
+function NavbarTwo() {
   const [nav, setNav] = useState(false);
   const [slide, setSlide] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -29,7 +29,7 @@ function NavbarTwoComponent() {
   };
   const navigate = useNavigate();
 
-  const handleGoToTalkPage = () => {
+  const handleGoToHomePage = () => {
     navigate('/');
   };
 
@@ -54,7 +54,7 @@ function NavbarTwoComponent() {
       <div className="container">
         <div className={slide ? 'logo slide-right bigger-logo' : 'logo'}>
           <Link onClick={handleClose} activeClass="active" to="home" spy={true} smooth={true} duration={500}>
-            <img src={logo} alt="Logo" className="logo-img" />
+            <img onClick={handleGoToHomePage} src={logo} alt="Logo" className="logo-img" />
           </Link>
         </div>
 
@@ -74,7 +74,7 @@ function NavbarTwoComponent() {
           </li>
 
           <div className="mobile-menu">
-            <button onClick={handleGoToTalkPage} id="nav-menu-btn">
+            <button onClick={handleGoToTalkPage2} id="nav-menu-btn">
               <span>{t('navbar.letsTalk')}</span>
             </button>
             <div className="social-icons">
@@ -88,7 +88,7 @@ function NavbarTwoComponent() {
 
         <ul className="nav-menu hide">
           <li>
-            <button onClick={handleGoToTalkPage} id="nav-menu-btn">
+            <button onClick={handleGoToTalkPage2} id="nav-menu-btn">
               <span>{t('navbar.letsTalk')}</span>
             </button>
           </li>
@@ -102,4 +102,4 @@ function NavbarTwoComponent() {
   );
 }
 
-export default NavbarTwoComponent;
+export default NavbarTwo;

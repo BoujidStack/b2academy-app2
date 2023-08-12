@@ -8,9 +8,9 @@ import NumberCountingSection from '../NumberCountingSection/NumberCountingSectio
 import Enrolltoday from '../Enrolltoday/Enrolltoday'
 import Advantages from '../Advantages/Advantages'
 import Business from '../B2AcademyForBusiness/Business'
-import NavbarTwoComponent from '../navbarForTalk&bdv/NavbarTwo'
 import ProgramModules from '../programModules/ProgramModules'
 import { useTranslation } from 'react-i18next';
+import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo'
 
 const Bdp = () => {
     const { t } = useTranslation();
@@ -23,9 +23,9 @@ const Bdp = () => {
         setShowModal(false);
     };
     return (
-        <>
+        <> <NavbarTwo/>
             <div name='Bdp' className='Bdp'>
-                <NavbarTwoComponent/>
+               
                 <div className='content-Bdp'>
                     <div className='centered-content'>
                         <h1 className='title-Bdp' data-aos="fade-down" data-aos-duration="1000">{t('Bdp.title')}</h1>

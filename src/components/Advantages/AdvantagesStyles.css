@@ -113,10 +113,15 @@
 }
 
 @media (max-width: 768px) {
+  
   .advantages-container {
     text-align: center;
-    width: 100%;
+    width: 200%;
     min-height: 160vh;
+  }
+
+  .content-advantages {
+    width: 70%;
   }
 
   .advantages-card {

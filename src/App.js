@@ -19,6 +19,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import enTranslation from './components/Languages/en.json';
 import frTranslation from './components/Languages/fr.json';
+import Terms from './components/Terms and conditions/Terms';
+import Privacy from './components/Privacy policy/Privacy';
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -57,6 +59,8 @@ function App() {
             </>
           } />
           <Route path="/Talk" element={<Talk />} />
+          <Route path="/Terms&Conditions" element={<Terms />} />
+          <Route path="/Privacy&Policy" element={<Privacy />} />
           <Route path="/blockchain" element={<Bdp/>} />
         </Routes>
       </BrowserRouter>

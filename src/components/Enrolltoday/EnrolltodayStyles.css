@@ -26,7 +26,7 @@
 
 .content-sectionEnrolltoday {
     float: left;
-    width: 100%; /* Adjust the width to 100% for smaller screens */
+    width: 100%; 
     color: #211b59;
     }
 
@@ -83,7 +83,14 @@
     transform: translate3d(100%, 0, 0);
 }
 
+.image-section img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
+
     .containerEnrolltoday {
       width: 80%;
       margin-right: 100px;
@@ -108,16 +115,21 @@
   @media screen and (max-width: 767px) {
 
 
-    .enrolltoday {
-      width: 100%;
+    .enrolltoday {    
       height: 130vh;
+      min-width: 196.5%;
     }
 
     .containerEnrolltoday {
-      width: 90%;
+      width: 80%;
       margin-right: 0;
     }
-  
+
+    .content h2{
+      font-size: 2.2rem;
+      margin-top: 10px;
+    }
+
     .content-sectionEnrolltoday {
       width: 100%;
     }
@@ -125,13 +137,14 @@
     .image-section {
       display: block;
       width: 100%;
-      margin-top: 20px;
+      
     }
   
     .image-section img {
       width: 80%;
       height: auto;
       margin: 0 auto;
+      margin-top: 30px;
     }
   }
 
