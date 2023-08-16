@@ -264,9 +264,6 @@
         margin-right: auto;
     }
 
-
-
-
     .nav-menu .social-icons {
         display: flex;
         justify-content: space-evenly;
@@ -304,12 +301,6 @@
         font-size: 14px;
         cursor: pointer;
     }
-
-    .navbar.scrolled {
-        display: none;
-      }
-      
-    
 }
 
 @media screen and (max-width: 495px) {
@@ -320,11 +311,4 @@
     .navbar .slide-right {
         margin-left: 30%;
     }
-    .navbar.scrolled {
-        display: none;
-      }
-
 }
-
-
-
