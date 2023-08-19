@@ -51,6 +51,8 @@ function SubscriptionCards() {
         </div>
       </div>
       <Newsletter />
+      <Fqa />
+      <FooterTwo />
     </div>
   );
 }
