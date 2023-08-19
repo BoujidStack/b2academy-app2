@@ -1,20 +1,20 @@
 .ourMethodology {
-    width: 100%;
-    height: 100vh;
-    background: url('../../assets/bg-website.png') no-repeat center center/cover;
-    display: flex;
-    align-items: center;   
+	width: 100%;
+	height: 120vh;
+	background: url('../../assets/bg-website.png') no-repeat center center/cover;
+	display: flex;
+	align-items: center;
 }
 
-.section{
-    margin-top: 250px;
+.section {
+	margin-top: 250px;
 }
 
-.titleOurMethodology{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #211b59;
+.titleOurMethodology {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #211b59;
 }
 
 .containerOurMethodology {
@@ -23,168 +23,176 @@
 	margin: auto;
 	padding-top: 100px;
 	margin-right: 100px;
-  }
-.content-section{
+}
+
+.content-section {
 	width: 55%;
-    color:  #211b59;;
+	color: #211b59;
+	;
 }
 
 
 .image-section {
 	width: 40%;
-  }
-  
-  .image-section .card {
+}
+
+.image-section .card {
 	width: 100%;
 	height: 100%;
 	perspective: 1000px;
-  }
-  
-  .image-section .card-inner {
+}
+
+.image-section .card-inner {
 	width: 100%;
 	height: 100%;
 	position: relative;
 	transform-style: preserve-3d;
 	transition: transform 0.5s;
-  }
-  
-  .image-section .card:hover .card-inner {
+}
+
+.image-section .card:hover .card-inner {
 	transform: rotateY(180deg);
-  }
-  
-  .image-section .card-front,
-  .image-section .card-back {
+}
+
+.image-section .card-front,
+.image-section .card-back {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
-  }
-  
-  .image-section .card-front img,
-  .image-section .card-back img {
+}
+
+.image-section .card-front img,
+.image-section .card-back img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
-  
-  .image-section .card-front {
-	transform: rotateY(0deg);
-  }
-  
-  .image-section .card-back {
-	transform: rotateY(180deg);
-  }
-  
-
-
-.content-section .content-point{
-display: flex;
-margin-top: 20px;
 }
 
-.content-section .content-point p{
+.image-section .card-front {
+	transform: rotateY(0deg);
+}
+
+.image-section .card-back {
+	transform: rotateY(180deg);
+}
+
+
+
+.content-section .content-point {
+	display: flex;
+	margin-top: 20px;
+}
+
+.content-section .content-point p {
 	margin-left: 10px;
 }
-.content-section .content-point h5{
+
+.content-section .content-point h5 {
 	margin-left: 10px;
 	font-size: 17px;
 }
 
-.image-section{
+.image-section {
 	float: right;
 	width: 40%;
 }
-.image-section img{
+
+.image-section img {
 	width: 100%;
 	height: auto;
 }
 
-.content-section .content h3{
+.content-section .content h3 {
 	margin-top: 20px;
-	color:#5d5d5d;
+	color: #5d5d5d;
 	font-size: 21px;
 }
-.content-section .content p{
+
+.content-section .content p {
 	margin-top: 10px;
 	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
-.content-section .content .button{
+
+.content-section .content .button {
 	margin-top: 30px;
 }
-.content-section .content .button a{
+
+.content-section .content .button a {
 	background-color: #3d3d3d;
-	padding:12px 40px;
+	padding: 12px 40px;
 	text-decoration: none;
-	color:#fff;
+	color: #fff;
 	font-size: 25px;
 	letter-spacing: 1.5px;
 }
-.content-section .content .button a:hover{
+
+.content-section .content .button a:hover {
 	background-color: #a52a2a;
-	color:#fff;
+	color: #fff;
 }
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
 	.ourMethodology {
 		height: 120vh;
 		min-width: 196.5%;
 	}
+
 	.image-section {
 		display: none;
 	}
-	
-	.containerOurMethodology{
-	width: 80%;
-	display: block;
-	margin:auto;
-	padding-top:50px;
-}
-.content-section{
-	float:none;
-	width:100%;
-	display: block;
-	margin:auto;
-}
-.image-section{
-	float:none;
-	width:100%;
-	
-}
-.image-section .img-OurMethodology{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin:auto;
+
+	.containerOurMethodology {
+		width: 80%;
+		display: block;
+		margin: auto;
+		padding-top: 50px;
+	}
+
+	.content-section {
+		float: none;
+		width: 100%;
+		display: block;
+		margin: auto;
+	}
+
+	.image-section {
+		float: none;
+		width: 100%;
+
+	}
+
+	.image-section .img-OurMethodology {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+
+	.content-section .content .button {
+		text-align: center;
+	}
+
+	.content-section .content .button a {
+		padding: 9px 30px;
+	}
+
 }
 
-.content-section .content .button{
-	text-align: center;
-}
-.content-section .content .button a{
-	padding:9px 30px;
-}
 
+@media only screen and (max-width: 640px){
+	.ourMethodology {
+		height: 170vh;
+	}
 }
 
-
-
-
-
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 1366px) and (max-height: 768px) {
     .ourMethodology {
-      height: 170vh;
+        height: 145vh;
     }
-  }
-
-
-
-
-
-
-
-
+}

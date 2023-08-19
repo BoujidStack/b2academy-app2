@@ -225,5 +225,18 @@
         "textTitle10":"b2academy is not responsible for the content posted by third parties or third party web pages that can be accessed from the Website; nor for the accuracy, veracity and validity of the information that is not of its own creation, and whose content belongs to third parties outside b2academy. However, pursuant to Article 17 of Law 34/2002 of July 11, 2002, on information society services and electronic commerce, when b2academy becomes aware of the unlawfulness of such content or links, it will proceed to remove them, as well as blocking the content that may be unlawful or violate the rights of third parties, under Articles 11 and 16 of that Law.",
         "text11": "9. Jurisdiction and out-of-court dispute resolution",
         "textTitle11":"b2academy reserves the right to file civil and/or criminal actions it deems appropriate for the improper use of its Website and/or Platform and contents or for the breach of these conditions. Without prejudice to the option available to the parties to voluntarily submit to the online dispute resolution system mentioned in the following section, the relationship between the User and b2academy shall be governed by the regulations in force and applicable in the Spanish territory. If any dispute arises, the parties may submit their disputes to arbitration or go to the ordinary jurisdiction in compliance with the rules on jurisdiction and competence in this regard, with submission to the forum of the consumer's domicile. Notwithstanding the foregoing, in accordance with Regulation (EU) 524/2013, the European Commission provides a free access platform for out-of-court online dispute resolution for electronic contracting (http://ec.europa.eu/consumers/odr/) to which the parties may voluntarily submit, through the intervention of the so-called Dispute Resolution Body, which acts as a neutral intermediary between the two parties."
+    },
+    "Subscription":{
+        "title":"Blockchain Developer Program Subscription",
+        "button":"Subscribe Now",
+        "cardd__title": "By bank transfer",
+        "cardd__title1":"(one-time transfer of the total cost)",
+        "cardd__section3": "Please indicate in the transfer subject: yourname+dev",
+        "cardd2__title": "By credit card",
+        "cardd2__title1":"Here are the financing options:",
+        "cardd2__section1": "Lifetime access to the learning platform",
+        "cardd2__section2": "7 days - Satisfaction Guaranteed or Refunded",
+        "cardd2__section3": "3x Installment Financing",
+        "button2":"Subscribe"
     }
 }

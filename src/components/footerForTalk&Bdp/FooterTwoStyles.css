@@ -165,7 +165,7 @@ footer .content .link-boxesTwo .boxTwo {
     cursor: pointer;
 }
 
-.content .link-boxesTwo .box li a:hover {
+.content .link-boxesTwo .boxTwo li a:hover {
     opacity: 1;
     text-decoration: underline;
 }

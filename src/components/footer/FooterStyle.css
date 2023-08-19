@@ -18,6 +18,7 @@ footer {
 .logo_name {
     max-width: 300px;
     max-height: 160px;
+    cursor: pointer;
 }
 
 footer .content {
@@ -132,6 +133,7 @@ footer .content .link-boxes .box {
 .content .link-boxes .box li {
     margin: 6px 0;
     list-style: none;
+    color: #211B59;
 }
 
 .content .link-boxes .box li a {
@@ -140,7 +142,8 @@ footer .content .link-boxes .box {
     font-weight: 400;
     text-decoration: none;
     opacity: 0.8;
-    transition: all 0.4s ease
+    transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .content .link-boxes .box li a:hover {

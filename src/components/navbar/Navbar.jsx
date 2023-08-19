@@ -100,7 +100,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://id.kajabi.com/u/login?state=hKFo2SBiRnNLZUtDWkZhMHdoaDgtS2RhZnBtQXA5MjB4ZkIwX6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGtqY2dPV0dTYUFyTTNSQ1k4LXQ3cm9HVWhCNk94MUh3o2NpZNkgTEt4Z3RMRVJlbktzR21ETzdpMDBHZ3dDbjEzenRGVDA" className="animated-ligne">
+            <a href="#" className="animated-ligne">
               {t('navbar.login')}
             </a>
           </li>

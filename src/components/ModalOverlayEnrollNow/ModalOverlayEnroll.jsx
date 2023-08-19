@@ -47,7 +47,7 @@ function ModalOverlayEnroll({ onClose }) {
                     showConfirmButton: false,
                     timer: 1500
                 }).then(() => {
-                    window.location.href = "https://id.kajabi.com/u/login?state=hKFo2SBjR29fWXdIVjRvb1ZnbkJfN3JPdExLZFBfTzUydDk3c6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGRUczRjdXJDakFFdVAxQlphXzZ6LNVpDaWhLN2tjaTFMo2NpZNkgTEt4Z3RMRVJlbktzR21ETzdpMDBHZ3dDbjEzenRGVDA";
+                    window.location.href = "/Subscribe";
                 });
             } else {
                 setErrorMessage('Please fill in all the required fields.');

@@ -1,0 +1,119 @@
+.SubscriptionCards {
+  width: 100%;
+  height: 100vh;
+  background: url('../../assets/bg-website.png') no-repeat center center/cover;
+}
+
+.cardd-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardd {
+  width: 30rem;
+  height: 35rem;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg, #0277B5, rgb(222, 245, 255) 50%, #0277B5);
+  margin-right: 50px;
+  margin-top: 9rem;
+}
+
+.cardd:last-child {
+  margin-right: 0;
+}
+
+.cardd__content {
+  background: rgb(222, 245, 255);
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardd__logo {
+  margin-bottom: 16px;
+}
+
+.cardd__title {
+  text-align: center;
+}
+
+.cardd__title h3 {
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.cardd__title p {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 16px;
+}
+
+.cardd__section {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+
+.cardd__section--margin-bottom {
+  margin-bottom: 20px;
+}
+
+
+.cardd__section::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #211b59;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .cardd-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Added property */
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    height: auto;
+    width: 195%;
+  }
+
+  .cardd {
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 15px; /* Add some spacing between the cards */
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+  }
+
+  .cardd__title h3 {
+    font-size: 24px;
+  }
+
+  .cardd__title p {
+    font-size: 14px;
+  }
+
+  .cardd__section {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .SubscriptionCards {
+    height: 110vh;
+  }
+}

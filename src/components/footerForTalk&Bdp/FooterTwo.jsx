@@ -58,15 +58,15 @@ const FooterTwo = () => {
                 <div className="link-boxesTwo">
                     <ul className="boxTwo">
                         <li className="link_name">Contact</li>
-                        <li className='Contactlinks'><a href='https://id.kajabi.com/u/login?state=hKFo2SBiRnNLZUtDWkZhMHdoaDgtS2RhZnBtQXA5MjB4ZkIwX6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGtqY2dPV0dTYUFyTTNSQ1k4LXQ3cm9HVWhCNk94MUh3o2NpZNkgTEt4Z3RMRVJlbktzR21ETzdpMDBHZ3dDbjEzenRGVDA' className='animated-ligne'>Login</a></li>
-                        <li className='Contactlinks' onClick={handleGoToTalkPage}>{t('footer.letsTalk')}</li>
-                        <li className='Contactlinks'><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a href="#">FQA</a></Link></li>
+                        <li className='Contactlinks'><a href='#' className='animated-ligne'>Login</a></li>
+                        <li className='Contactlinks' onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
+                        <li className='Contactlinks'><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a>FQA</a></Link></li>
                         <li className='Contactlinks' onClick={() => setShowModal(true)}><a>{t('footer.ContactUs')}</a></li>
                     </ul>
                     <ul className="boxTwo Legal">
                         <li className="link_name">Legal</li>
-                        <li className='Contactlinks' onClick={handleGoToTermsPage}>{t('footer.terms and conditions')}</li>
-                        <li className='Contactlinks' onClick={handleGoToPrivacyPage}>{t('footer.Privacy policy')}</li>
+                        <li className='Contactlinks' onClick={handleGoToTermsPage}><a>{t('footer.terms and conditions')}</a></li>
+                        <li className='Contactlinks' onClick={handleGoToPrivacyPage}><a>{t('footer.Privacy policy')}</a></li>
                     </ul>
 
                 </div>

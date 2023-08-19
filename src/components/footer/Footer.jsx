@@ -61,8 +61,8 @@ const Footer = () => {
                     </ul>
                     <ul className="box">
                         <li className="link_name">Contact</li>
-                        <li><a href='https://id.kajabi.com/u/login?state=hKFo2SBiRnNLZUtDWkZhMHdoaDgtS2RhZnBtQXA5MjB4ZkIwX6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGtqY2dPV0dTYUFyTTNSQ1k4LXQ3cm9HVWhCNk94MUh3o2NpZNkgTEt4Z3RMRVJlbktzR21ETzdpMDBHZ3dDbjEzenRGVDA' className='animated-ligne'>Login</a></li>
-                        <li onClick={handleGoToTalkPage}>{t('footer.letsTalk')}</li>
+                        <li><a href='#' className='animated-ligne'>Login</a></li>
+                        <li onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
                         <li><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a href="#">FQA</a></Link></li>
                         <li onClick={() => setShowModal(true)}><a>{t('footer.ContactUs')}</a></li>
                     </ul>

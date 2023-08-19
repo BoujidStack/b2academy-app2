@@ -135,7 +135,10 @@
   transform-origin: bottom left;
 }
 
-/* Responsive Styles */
+.open-enrollment-link {
+  cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
   .programs {

@@ -147,3 +147,10 @@
       height: 170vh;
     }
   }
+
+
+  @media screen and (max-width: 1366px) and (max-height: 768px) {
+    .newsletter {
+        height: 170vh;
+      }
+  }

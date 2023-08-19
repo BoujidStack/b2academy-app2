@@ -214,5 +214,18 @@
         "textTitle10":"b2academy n'est pas responsable du contenu publié par des tiers ou des pages web de tiers auxquelles on peut accéder depuis le Site Web ; ni de l'exactitude, de la véracité et de la validité des informations qui ne sont pas de sa propre création, et dont le contenu appartient à des tiers extérieurs à b2academy. Cependant, conformément à l'article 17 de la Loi 34/2002 du 11 juillet 2002 sur les services de la société de l'information et le commerce électronique, lorsque b2academy prend connaissance de l'illicéité de ce contenu ou de ces liens, il procédera à leur suppression, ainsi qu'au blocage du contenu qui pourrait être illicite ou violer les droits de tiers, conformément aux articles 11 et 16 de ladite Loi.",
         "text11": "9. Juridiction et règlement extrajudiciaire des litiges",
         "textTitle11":"b2academy se réserve le droit d'intenter des actions civiles et/ou pénales qu'il juge appropriées en cas d'utilisation abusive de son Site Web et/ou de sa Plateforme et de son contenu, ou en cas de non-respect de ces conditions. Sans préjudice de l'option offerte aux parties de se soumettre volontairement au système de règlement extrajudiciaire des litiges en ligne mentionné dans la section suivante, la relation entre l'Utilisateur et b2academy sera régie par les réglementations en vigueur et applicables sur le territoire espagnol. En cas de litige, les parties pourront soumettre leurs différends à l'arbitrage ou se tourner vers la juridiction ordinaire en respectant les règles en matière de compétence et de compétence à cet égard, avec soumission au tribunal du domicile du consommateur. Nonobstant ce qui précède, conformément au règlement (UE) 524/2013, la Commission européenne met à disposition une plateforme d'accès gratuit pour le règlement extrajudiciaire en ligne des litiges liés à la vente en ligne (http://ec.europa.eu/consumers/odr/), à laquelle les parties peuvent soumettre volontairement leur différend, par l'intermédiaire de l'organisme de règlement des litiges, qui agit en tant qu'intermédiaire neutre entre les deux parties."
+    },
+    "Subscription":{
+        "title":"Abonnement au Programme de Développeur Blockchain",
+        "button":"S'abonner maintenant",
+        "cardd__title": "Par virement bancaire",
+        "cardd__title1":"(un virement unique du coût total)",
+        "cardd__section3": "Veuillez indiquer lors du virement en objet : votrenom+dev",
+        "cardd2__title": "Par carte bancaire",
+        "cardd2__title1":"Voici les possibilités de financement",
+        "cardd2__section1": "Accès à vie à la plateforme d’apprentissage",
+        "cardd2__section2": "7 jours – Satisfait ou Remboursé",
+        "cardd2__section3": "Financement en 3x",
+        "button2":"JE SOUSCRIS"
     }
 }

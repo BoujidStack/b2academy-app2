@@ -26,6 +26,7 @@
 .logo-img {
     width: 150%;
     height: auto;
+    cursor: pointer;
 }
 
 .hamburger {
@@ -221,7 +222,11 @@
         top: 0;
         right: -100%;
         transition: 0.9s ease-in-out;
+    }
 
+    .navbar .logo {
+        width: 220px;
+        height: 220px;
     }
 
 
@@ -231,6 +236,11 @@
     
     .selected-language span {
         color: #fff;
+        font-size: 2rem;
+    }
+
+    .selected-language svg{
+        font-size: 1.3rem;
     }
 
     .active {
@@ -253,7 +263,7 @@
     }
 
     .nav-menu li a {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         color: #fff;
     }
 
@@ -262,6 +272,7 @@
         width: 55%;
         margin-left: auto;
         margin-right: auto;
+        font-size: 2.2rem;
     }
 
     .nav-menu .social-icons {
@@ -273,7 +284,7 @@
 
     .nav-menu .icon {
         color: #fff;
-        font-size: 1.4rem;
+        font-size: 2.2rem;
     }
 
     .nav-menu .icon:hover{
@@ -291,14 +302,13 @@
 
 
     .language-options {
-        
-        width: 100px;
+        width: 130px;
         margin-left: 15px;
     }
 
     .language-options li {
         padding: 1px 8px;
-        font-size: 14px;
+        font-size: 1.3rem;
         cursor: pointer;
     }
 }
@@ -310,5 +320,12 @@
 
     .navbar .slide-right {
         margin-left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    .language-options {
+        width: 96px;
     }
 }
