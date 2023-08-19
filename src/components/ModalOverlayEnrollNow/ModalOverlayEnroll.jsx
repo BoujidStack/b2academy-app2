@@ -47,7 +47,7 @@ function ModalOverlayEnroll({ onClose }) {
                     showConfirmButton: false,
                     timer: 1500
                 }).then(() => {
-                    window.location.href = "/Subscribe";
+                    window.location.href = "/Subscription";
                 });
             } else {
                 setErrorMessage('Please fill in all the required fields.');
