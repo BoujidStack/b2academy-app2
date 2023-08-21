@@ -7,15 +7,12 @@
     color: #211b59;
     width: 100%;
     min-height: 100vh;
-  }
-  
-  .RoadMap h3,
-  .RoadMap h1 {
+}
+
+.RoadMap h3,
+.RoadMap h1 {
     text-align: center;
-  }
-  
-  
-  
+}
 
 .process-wrapper {
     margin: auto;
@@ -189,19 +186,26 @@
 @media (max-width: 768px) {
     .RoadMap {
         min-width: 200%;
-      }
+    }
 
     #progress-bar-container {
-      width: 100%;
-      margin-left: 0;
+        width: 100%;
+        margin-left: 0;
     }
-  }
-  
 
-  @media only screen and (max-width: 640px) {
-    .RoadMap {
-      min-width: 200%;
-      height: 170vh;
+    #progress-content-section .section-content p {
+        font-size: 30px;
     }
-  }
-  
+
+    .process-wrapper h3{
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .RoadMap {
+        min-width: 200%;
+        height: 170vh;
+    }
+}

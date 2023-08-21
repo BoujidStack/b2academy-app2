@@ -107,9 +107,9 @@
   width: 0;
 }
 
-.accordion button[aria-expanded='true'] + .accordion-content {
+.accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 15em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -145,6 +145,14 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .accordion button .icon {
+    right: -30px;
+  }
+
+  .contact-us {
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+  }
+
 }
-
-

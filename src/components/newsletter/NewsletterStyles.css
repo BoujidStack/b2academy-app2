@@ -11,18 +11,18 @@
 
 
 .newsletter-title {
-    font-size: 50px; 
+    font-size: 50px;
 }
 
 
 .newsletter-input {
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .input-newsletter {
-    flex: 1; 
+    flex: 1;
     max-width: 300px;
     padding: 20px;
     font-size: 17px;
@@ -47,7 +47,7 @@
     letter-spacing: 0.05rem;
     font-weight: 700;
     font-size: 17px;
-    border-radius:  0 .5em .5em 0;
+    border-radius: 0 .5em .5em 0;
     overflow: hidden;
     background: #211B59;
     color: ghostwhite;
@@ -91,7 +91,7 @@
 .social-media-icons {
     display: flex;
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .social-media-icons a {
@@ -126,31 +126,32 @@
 
 
 @media (max-width: 768px) {
-    .newsletter{
+    .newsletter {
         min-width: 200%;
     }
+
     .newsletter-title {
-        font-size: 30px; 
+        font-size: 40px;
     }
 
-.newsletter-input {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px; 
-}
+    .newsletter-input {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 }
 
 
 @media only screen and (max-width: 640px) {
     .newsletter {
-      height: 170vh;
+        height: 170vh;
     }
-  }
+}
 
 
-  @media screen and (max-width: 1366px) and (max-height: 768px) {
+@media screen and (max-width: 1366px) and (max-height: 768px) {
     .newsletter {
         height: 170vh;
-      }
-  }
+    }
+}

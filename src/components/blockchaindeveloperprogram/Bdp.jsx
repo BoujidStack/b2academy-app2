@@ -45,7 +45,6 @@ const Bdp = () => {
             <Newsletter />
             <Fqa />
             <Footer />
-
         </>
     )
 }

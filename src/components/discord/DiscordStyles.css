@@ -125,7 +125,6 @@
         align-items: center;
         height: 120vh;
         min-width: 196.5%;
-
     }
 
     .discord-content {
@@ -133,30 +132,39 @@
         margin-right: 0;
         height: auto;
         margin-bottom: 15rem;
-        
     }
 
     .discord-content p {
         width: 100%;
+        font-size: 30px;
+    }
+
+    .discord-content .content-point h5 {
+        font-size: 28px;
+    }
+    
+    .discord-content .content-point img{
+       width: 50px;
+       height: 50px;
     }
 
     .light-button {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 2rem; 
+        margin-top: 2rem;
         position: absolute;
     }
 
     .light-button button.bt {
-        margin-right: 0; 
-        margin-bottom: 0; 
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }
 
 
 @media only screen and (max-width: 640px) {
     .discord {
-      height: 170vh;
+        height: 170vh;
     }
-  }
+}

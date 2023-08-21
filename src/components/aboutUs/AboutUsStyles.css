@@ -29,7 +29,6 @@
 	float: left;
 	width: 55%;
 	color: #211b59;
-	;
 }
 
 .pyramid-loader {
@@ -130,33 +129,20 @@
 	line-height: 1.5;
 }
 
-.content-section .content .button {
-	margin-top: 30px;
-}
-
-.content-section .content .button a {
-	background-color: #3d3d3d;
-	padding: 12px 40px;
-	text-decoration: none;
-	color: #fff;
-	font-size: 25px;
-	letter-spacing: 1.5px;
-}
-
-.content-section .content .button a:hover {
-	background-color: #a52a2a;
-	color: #fff;
-}
-
-
-
 
 @media screen and (max-width: 768px) {
-
-
 	.aboutUs {
-		height:100vh;
+		height: 100vh;
 		min-width: 196.5%;
+	}
+
+	.titleAboutUs h1 {
+		font-size: 70px;
+	}
+
+	.containerAboutUs .content-section .content p {
+		font-size: 30px;
+		width: 130%;
 	}
 
 	.containerAboutUs {
@@ -188,26 +174,29 @@
 
 	.content-section .title {
 		text-align: center;
-		font-size: 19px;
+		font-size: 35px;
 	}
 
-	.content-section .content .button {
-		text-align: center;
+	.pyramid-loader {
+		margin-top: 300px;
+		margin-left: 100px;
 	}
 
-	.content-section .content .button a {
-		padding: 9px 30px;
+	.pyramid-loader .wrapper .side {
+		width: 250px;
+		height: 250px;
+		top: -320px;
 	}
 
-	.pyramid-loader{
-		margin-top: 80px;
+	.pyramid-loader .wrapper .shadow {
+		width: 180px;
+		height: 180px;
 	}
 
 }
 
 @media only screen and (max-width: 640px) {
-    .aboutUs {
-      height: 170vh;
-    }
-  }
-  
+	.aboutUs {
+		height: 170vh;
+	}
+}

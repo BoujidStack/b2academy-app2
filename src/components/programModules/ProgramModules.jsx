@@ -79,32 +79,32 @@ const ProgramModules = () => {
           <path fill="#0277B5" d="M21 37.5c0-10.04-11 0-12 0 1 0 12 10.04 12 0" ref={flameRef} />
         </svg>
       </div>
-      <div className='content-modules' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModules' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module1')}</h1>
         <p>{t('ProgramModules.module1-description')}</p>
       </div>
 
-      <div className='content-modulesTwo' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModulesTwo' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module2')}</h1>
         <p>{t('ProgramModules.module2-description')}</p>
       </div>
 
-      <div className='content-modulesThree' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModulesThree' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module3')}</h1>
         <p>{t('ProgramModules.module3-description')}</p>
       </div>
 
-      <div className='content-modulesFourth' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModulesFourth' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module4')}</h1>
         <p>{t('ProgramModules.module4-description')}</p>
       </div>
 
-      <div className='content-modulesFive' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModulesFive' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module5')}</h1>
         <p>{t('ProgramModules.module5-description')}</p>
       </div>
 
-      <div className='content-modulessix' data-aos="zoom-in" data-aos-duration="1000">
+      <div className='contentModulessix' data-aos="zoom-in" data-aos-duration="1000">
         <h1>{t('ProgramModules.module6')}</h1>
         <p>{t('ProgramModules.module6-description')}</p>
       </div>

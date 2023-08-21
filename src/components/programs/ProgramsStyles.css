@@ -55,6 +55,8 @@
   text-align: center;
   font-size: 22px;
   color: #211b59;
+  text-align: justify;
+
 }
 
 .product-image {
@@ -150,6 +152,22 @@
     width: 100%;
     margin-top: 20px;
     height: 100%;
+  }
+
+  #container .product-details>p {
+    font-size: 25px;
+  }
+
+  .ctaPrograms {
+     font-size: 23px;
+  }
+
+  .ctaPrograms span {
+    font-size: 23px;
+ }
+
+  .button-containerPrograms a {
+    font-size: 25px;
   }
 
   .product-details {
