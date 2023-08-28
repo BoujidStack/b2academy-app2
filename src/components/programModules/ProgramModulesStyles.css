@@ -42,20 +42,20 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: -18rem;
-  width: 200px;
-  margin-left: 240px;
+  margin-top: -19rem;
+  width: 270px;
+  margin-left: 210px;
 }
 
 .contentModules h1 {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
 
 }
 
 .contentModules p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
 
@@ -65,19 +65,18 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 9rem;
-  width: 200px;
-  margin-left: 33rem;
+  width: 280px;
+  margin-left: 31rem;
 }
 
 .contentModulesTwo h1 {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
-
 }
 
 .contentModulesTwo p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
 
@@ -87,20 +86,20 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: -28rem;
-  width: 200px;
-  margin-left: 46rem;
+  margin-top: -34rem;
+  width: 280px;
+  margin-left: 42rem;
 }
 
 .contentModulesThree h1 {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
 
 }
 
 .contentModulesThree p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
 
@@ -111,19 +110,19 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: 7rem;
-  width: 200px;
-  margin-left: 55rem;
+  margin-top: 8rem;
+  width: 280px;
+  margin-left: 53rem;
 }
 
 .contentModulesFourth h1 {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
 }
 
 .contentModulesFourth p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
 
@@ -132,22 +131,21 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: -29rem;
-  width: 200px;
-  margin-left: 62.7rem;
+  margin-top: -34rem;
+  width: 260px;
+  margin-left: 61rem;
 }
 
 .contentModulesFive h1 {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
 }
 
 .contentModulesFive p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
-
 
 .contentModulessix {
   background-color: #ffffff;
@@ -155,18 +153,18 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 6.5rem;
-  width: 200px;
-  margin-left: 70rem;
+  width: 280px;
+  margin-left: 73rem;
 }
 
 .contentModulessix h1 {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #0580C2;
 }
 
 .contentModulessix p {
-  font-size: 10px;
+  font-size: 15px;
   color: #211B59;
 }
 
@@ -184,10 +182,7 @@
   }
 
   .programModulesImageRight {
-    margin-left: 11rem;
-    margin-top: 11rem;
-    width: 550px;
-    height: 550px;
+    display: none;
   }
 
   .programModuleslignes {
@@ -204,9 +199,20 @@
   .contentModulesFourth,
   .contentModulesFive,
   .contentModulessix {
-    width: 60%;
+    width: 70%;
     margin: 1rem auto;
     z-index: 10;
+  }
+
+  .programModules h1 {
+    font-size: 30px;
+    width: 110%;
+  }
+
+
+  .programModules p {
+    font-size: 25px;
+    color: #211B59;
   }
 
 
@@ -244,45 +250,45 @@
 }
 
 
-@media screen and (max-width: 1366px) and (max-height: 768px) {
+@media screen and (max-width: 1366px) and (min-width: 769px) {
   .programModulesImage {
-    margin-left: 20px;
-  }
+      margin-left: 20px;
+    }
 
-  .programModulesImageRight {
-    margin-left: 59.5rem;
-    margin-top:  -26.5rem;
-  }
+    .programModulesImageRight {
+      margin-left: 59.5rem;
+      margin-top: -26.5rem;
+    }
 
-  .programModuleslignes {
-    margin-left: -350px;
-  }
+    .programModuleslignes {
+      margin-left: -350px;
+    }
 
-  #rocket-icon {
-    margin-left: 16rem;
-  }
+    #rocket-icon {
+      margin-left: 16rem;
+    }
 
-  .contentModules {
-    margin-left: 100px;
-  }
+    .contentModules {
+      margin-left: 50px;
+    }
 
-  .contentModulesTwo {
-    margin-left: 24rem;
-  }
-  
-  .contentModulesThree {
-    margin-left: 36rem;
-  }
-  
-  .contentModulesFourth {
-    margin-left: 45rem;
-  }
-  
-  .contentModulesFive {
-    margin-left: 54rem;
-  }
+    .contentModulesTwo {
+      margin-left: 20rem;
+    }
 
-  .contentModulessix {
-    margin-left: 61rem;
+    .contentModulesThree {
+      margin-left: 34rem;
+    }
+
+    .contentModulesFourth {
+      margin-left: 41rem;
+    }
+
+    .contentModulesFive {
+      margin-left: 54rem;
+    }
+
+    .contentModulessix {
+      margin-left: 61rem;
+    }
   }
-}

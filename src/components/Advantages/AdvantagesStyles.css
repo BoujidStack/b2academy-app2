@@ -51,7 +51,7 @@
 }
 
 .advantages-card-NFT h4{
-  font-size: 14px;
+  font-size: 18px;
   margin-right: 50px;
   color: #211b59;
 }
@@ -105,11 +105,12 @@
 
 .advantages-card h4{
   color: #211b59;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .advantages-card h2{
   color: #211b59;
+  font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -128,9 +129,12 @@
     margin-bottom: 20px; 
   }
 
+  .advantages-title {
+    font-size: 5.2rem;
+  }
 
   .advantages-subtitle {
-    font-size: 18px;
+    font-size: 40px;
   }
 
   .advantages-card {
@@ -139,8 +143,16 @@
     margin-bottom: 20px;
   }
 
+  .advantages-card h2{
+    font-size: 3rem;
+  }
+
   .advantages-card h3 {
-    font-size: 24px;
+    font-size: 35px;
+  }
+
+  .advantages-card h4{
+    font-size: 25px;
   }
 
   .advantages-card ul {
@@ -148,8 +160,8 @@
   }
 
   .advantages-card img {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
   }
 
   .advantages-card-NFT {
@@ -166,7 +178,7 @@
   
 
   .advantages-card-NFT h4 {
-    font-size: 14px;
+    font-size: 25px;
     margin-right: 0;
     text-align: center;
   }

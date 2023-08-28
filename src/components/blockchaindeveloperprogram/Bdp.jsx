@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './BdpStyles.css'
 import Newsletter from '../newsletter/Newsletter'
 import Fqa from '../FrequentlyAskedQuestions/Fqa'
-import Footer from '../footer/Footer'
 import ModalOverlayEnroll from '../ModalOverlayEnrollNow/ModalOverlayEnroll'
 import NumberCountingSection from '../NumberCountingSection/NumberCountingSection'
 import Enrolltoday from '../Enrolltoday/Enrolltoday'
@@ -11,6 +10,7 @@ import Business from '../B2AcademyForBusiness/Business'
 import ProgramModules from '../programModules/ProgramModules'
 import { useTranslation } from 'react-i18next';
 import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo'
+import FooterTwo from '../footerForTalk&Bdp/FooterTwo'
 
 const Bdp = () => {
     const { t } = useTranslation();
@@ -25,7 +25,6 @@ const Bdp = () => {
     return (
         <> <NavbarTwo/>
             <div name='Bdp' className='Bdp'>
-               
                 <div className='content-Bdp'>
                     <div className='centered-content'>
                         <h1 className='title-Bdp' data-aos="fade-down" data-aos-duration="1000">{t('Bdp.title')}</h1>
@@ -44,7 +43,7 @@ const Bdp = () => {
             <Business/>
             <Newsletter />
             <Fqa />
-            <Footer />
+            <FooterTwo/>
         </>
     )
 }

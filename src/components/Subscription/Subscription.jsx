@@ -15,7 +15,7 @@ function Subscription() {
     return (
         <>
             <NavbarTwo/>
-            <div name='Subscription' className='talk'>
+            <div name='Subscription' className='Subscription'>
                 <div className='content-Subscription'>
                     <div className='SubscriptionCentered-content '>
                         <h1 data-aos="fade-down" data-aos-duration="1000" className='title-Subscription'>{t('Subscription.title')}</h1>

@@ -29,6 +29,10 @@
   color: #211b59;
 }
 
+.content h2 {
+  font-size: 2.2rem;
+}
+
 #Enrolltoday-btn {
   outline: none;
   cursor: pointer;

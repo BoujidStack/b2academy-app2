@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 150vh;
   }
 
   .content-talk {
@@ -56,6 +57,12 @@
   }
 
   .text-talk {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
+
+  .centered-content button{
+    font-size: 1.2rem;
+  }
+
+  
 }

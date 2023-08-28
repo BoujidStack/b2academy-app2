@@ -17,8 +17,8 @@
     },
     "programs": {
         "titleSection": "Programmes",
-        "title": "Devenir un développeur Ethereum",
-        "description": "Ce cours vous permettra de devenir un développeur Ethereum compétent. Vous apprendrez les bases de la blockchain Ethereum, les langages de programmation utilisés pour développer des applications Ethereum, et vous serez initié aux outils et frameworks essentiels.",
+        "title": "Devenir un développeur blockchain",
+        "description": "Ce cours vous permettra de devenir un développeur blockchain compétent. Vous apprendrez les bases de la technologie blockchain, les langages de programmation utilisés pour développer des applications blockchain, et vous serez introduit aux outils et aux cadres essentiels.",
         "button": "Découvrir",
         "buttonTwo": "Inscriptions ouvertes"
     },

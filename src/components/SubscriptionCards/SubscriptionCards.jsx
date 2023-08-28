@@ -18,8 +18,8 @@ function SubscriptionCards() {
   }, []);
 
   return (
-    <div className='SubscriptionCards'>
-      <div className='cardd-container'>
+    <>
+      <div className='SubscriptionCards'>
         <div className='cardd' data-aos="fade-right" data-aos-duration="1000">
           <div className='cardd__content'>
             <div className='cardd__logo' style={{ marginTop: '-10px' }}>
@@ -53,7 +53,7 @@ function SubscriptionCards() {
       <Newsletter />
       <Fqa />
       <FooterTwo />
-    </div>
+    </>
   );
 }
 

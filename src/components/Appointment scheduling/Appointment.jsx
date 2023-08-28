@@ -19,9 +19,6 @@ const Appointment = () => {
 
     return (
         <div name='scheduling-appointment' className='appointment'>
-            <div className='schedulingAppointment'>
-                <div data-aos="fade-left" data-aos-duration="1200" className="calendly-inline-widget" data-url="https://calendly.com/hamzaboujid24/hamzaboujid24" ></div>
-            </div>
             <div className="appointment-details">
                 <h1 data-aos="fade-right" data-aos-duration="1000">{t('Appointment.title')}</h1>
                 <p data-aos="fade-right" data-aos-duration="1000">{t('Appointment.description')} B<sup>2</sup>Academy</p>
@@ -29,6 +26,9 @@ const Appointment = () => {
                     <FaEnvelope />
                     <span>{t('Appointment.email')}</span>
                 </div>
+            </div>
+            <div className='schedulingAppointment'>
+                <div data-aos="fade-left" data-aos-duration="1200" className="calendly-inline-widget" data-url="https://calendly.com/hamzaboujid24/hamzaboujid24" ></div>
             </div>
         </div>
     );

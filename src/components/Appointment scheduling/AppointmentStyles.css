@@ -1,11 +1,11 @@
 .appointment {
     width: 100%;
-    height: 70vh;
+    height: 200vh;
     background: url('../../assets/bg-website.png') no-repeat center center/cover;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     padding-right: 20px;
 }
 
@@ -15,56 +15,59 @@
 }
 
 .schedulingAppointment {
-    transform: scale(0.6);
-    margin-top: 150px;
+    transform: scale(0.9);
+    margin-top: 20px;
+    margin-left: 2.5rem;
 }
 
-
-.appointment h1,
-.appointment p,
-.appointment .contact-info {
-    text-align: left;
-    margin-left: 150px;
-    width: 77%;
-    padding: 10px;
+.appointment-details {
+    margin-top: 20px;
     color: #211B59;
+    text-align: center; 
+    margin-left: 25rem;
 }
 
-
-.appointment h1 {
-    width: 124%;
+.appointment-details h1 {
+    width: 100%; 
 }
 
+.appointment-details p {
+    padding: 10px;
+    text-align: center; 
+}
 
-
-
-
-.appointment-details .appointment .contact-info {
+.appointment-details .contact-info {
     display: flex;
     align-items: center;
-}
-
-.appointment .contact-info svg {
-    margin-right: 10px;
-}
-
-.appointment .contact-info .email {
-    margin-left: 5px;
+    justify-content: center; 
 }
 
 
 @media (max-width: 768px) {
     .appointment {
-        height: 90vh;
+        height: 200vh;
         min-width: 196.5%;
     }
 
     .schedulingAppointment {
-        transform: scale(0.5);
-        margin-left: -45rem;
+        transform: scale(0.7);
+        margin-left: -15rem;
         margin-top: 50rem;
     }
 
+    .appointment-details {
+        margin-left: 4rem;
+    }
     
+    .appointment-details p {
+        font-size: 1.6rem;
+    }
+
+    .appointment-details .contact-info {
+        font-size: 1.3rem;
+    }
 }
 
+.appointment-details + .schedulingAppointment {
+    margin-top: 20px;
+}

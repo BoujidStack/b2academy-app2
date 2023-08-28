@@ -41,14 +41,7 @@ function ModalOverlayEnroll({ onClose }) {
     
                 await saveFormDataToFirestore(formData);
     
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Proceeding to payment...',
-                    showConfirmButton: false,
-                    timer: 1500
-                }).then(() => {
-                    window.location.href = "/Subscription";
-                });
+                window.location.href = "/Subscription";
             } else {
                 setErrorMessage('Please fill in all the required fields.');
             }
@@ -56,6 +49,7 @@ function ModalOverlayEnroll({ onClose }) {
             setErrorMessage(t('ModalOverlayEnroll.errorMessage'));
         }
     };
+    
     
 
     const handleCheckboxChange = (e) => {

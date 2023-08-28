@@ -42,13 +42,14 @@
   @media (max-width: 768px) {
     .Bdp {
       min-width: 196.5%;
+      height: 120vh;
     }
     .title-Bdp {
         font-size: 3rem;
     }
   
     .text-Bdp {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
   }
   
