@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
-import Swal from 'sweetalert2';
 import './ModalOverlayEnrollStyles.css';
 import { saveFormDataToFirestore } from '../firebase/FirebaseUtils';
 import { useTranslation } from 'react-i18next';
@@ -38,9 +37,9 @@ function ModalOverlayEnroll({ onClose }) {
                     phoneNumber,
                     isChecked,
                 };
-    
+
                 await saveFormDataToFirestore(formData);
-    
+
                 window.location.href = "/Subscription";
             } else {
                 setErrorMessage('Please fill in all the required fields.');
@@ -49,8 +48,8 @@ function ModalOverlayEnroll({ onClose }) {
             setErrorMessage(t('ModalOverlayEnroll.errorMessage'));
         }
     };
-    
-    
+
+
 
     const handleCheckboxChange = (e) => {
         setIsChecked(e.target.checked);

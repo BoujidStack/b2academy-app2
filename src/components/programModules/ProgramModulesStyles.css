@@ -252,43 +252,43 @@
 
 @media screen and (max-width: 1366px) and (min-width: 769px) {
   .programModulesImage {
-      margin-left: 20px;
-    }
-
-    .programModulesImageRight {
-      margin-left: 59.5rem;
-      margin-top: -26.5rem;
-    }
-
-    .programModuleslignes {
-      margin-left: -350px;
-    }
-
-    #rocket-icon {
-      margin-left: 16rem;
-    }
-
-    .contentModules {
-      margin-left: 50px;
-    }
-
-    .contentModulesTwo {
-      margin-left: 20rem;
-    }
-
-    .contentModulesThree {
-      margin-left: 34rem;
-    }
-
-    .contentModulesFourth {
-      margin-left: 41rem;
-    }
-
-    .contentModulesFive {
-      margin-left: 54rem;
-    }
-
-    .contentModulessix {
-      margin-left: 61rem;
-    }
+    margin-left: 20px;
   }
+
+  .programModulesImageRight {
+    margin-left: 59.5rem;
+    margin-top: -26.5rem;
+  }
+
+  .programModuleslignes {
+    margin-left: -350px;
+  }
+
+  #rocket-icon {
+    margin-left: 16rem;
+  }
+
+  .contentModules {
+    margin-left: 50px;
+  }
+
+  .contentModulesTwo {
+    margin-left: 20rem;
+  }
+
+  .contentModulesThree {
+    margin-left: 34rem;
+  }
+
+  .contentModulesFourth {
+    margin-left: 41rem;
+  }
+
+  .contentModulesFive {
+    margin-left: 54rem;
+  }
+
+  .contentModulessix {
+    margin-left: 61rem;
+  }
+}

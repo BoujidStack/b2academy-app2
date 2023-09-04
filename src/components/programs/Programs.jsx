@@ -32,7 +32,7 @@ const Programs = () => {
           <div className="product-details" data-aos="fade-zoom-in" data-aos-duration="1000">
             <h1>{t('programs.title')}</h1>
             <p className="information">
-            {t('programs.description')}
+              {t('programs.description')}
             </p>
             <div className="button-containerPrograms">
               <div>
@@ -43,7 +43,7 @@ const Programs = () => {
                   <FaArrowRight />
                 </button>
                 <a className="open-enrollment-link" onClick={() => setShowModal(true)}>
-                • {t('programs.buttonTwo')}
+                  • {t('programs.buttonTwo')}
                 </a>
               </div>
             </div>

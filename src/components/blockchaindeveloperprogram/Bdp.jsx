@@ -23,27 +23,27 @@ const Bdp = () => {
         setShowModal(false);
     };
     return (
-        <> <NavbarTwo/>
+        <> <NavbarTwo />
             <div name='Bdp' className='Bdp'>
                 <div className='content-Bdp'>
                     <div className='centered-content'>
                         <h1 className='title-Bdp' data-aos="fade-down" data-aos-duration="1000">{t('Bdp.title')}</h1>
                         <p className='text-Bdp' data-aos="zoom-in" data-aos-duration="1000">
-                        {t('Bdp.description')}
+                            {t('Bdp.description')}
                         </p>
                         <button onClick={() => setShowModal(true)} className='centered-button' data-aos="fade-up" data-aos-duration="1000">{t('Bdp.button')}</button>
                     </div>
                 </div>
             </div>
             {showModal && <ModalOverlayEnroll onClose={handleCloseModal} />}
-            <NumberCountingSection/>
-            <ProgramModules/>
-            <Enrolltoday/>
-            <Advantages/>
-            <Business/>
+            <NumberCountingSection />
+            <ProgramModules />
+            <Enrolltoday />
+            <Advantages />
+            <Business />
             <Newsletter />
             <Fqa />
-            <FooterTwo/>
+            <FooterTwo />
         </>
     )
 }

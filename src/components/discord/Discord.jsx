@@ -11,7 +11,7 @@ const Discord = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setIsLightOn((prevIsLightOn) => !prevIsLightOn);
-        }, 1000); 
+        }, 1000);
 
         return () => {
             clearInterval(interval);
@@ -20,7 +20,7 @@ const Discord = () => {
     return (
         <div name='discord' className='discord'>
 
-            
+
 
             <div className={`light-button ${isLightOn ? 'on' : ''}`}>
                 <button className="bt" data-aos="zoom-in-up" data-aos-duration="1000">

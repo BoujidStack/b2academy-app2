@@ -55,7 +55,7 @@ const Newsletter = () => {
         />
         <button className="button-newsletter" onClick={handleSubscribe}><span>{t('newsletter.button')}</span></button>
       </div>
-      <div className='social-media-icons'data-aos="zoom-in" data-aos-duration="1000">
+      <div className='social-media-icons' data-aos="zoom-in" data-aos-duration="1000">
         <div className="media-icons" >
           <a href="#"><FaFacebook /></a>
           <a href="#"><FaTwitter /></a>

@@ -12,9 +12,6 @@ import Newsletter from './components/newsletter/Newsletter';
 import Bdp from './components/blockchaindeveloperprogram/Bdp';
 import Discord from './components/discord/Discord';
 import RoadMap from './components/RoadMap/RoadMap';
-
-
-
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import enTranslation from './components/Languages/en.json';
@@ -32,8 +29,8 @@ i18n.use(initReactI18next).init({
       translation: frTranslation,
     },
   },
-  lng: 'en', 
-  fallbackLng: 'en', 
+  lng: 'en',
+  fallbackLng: 'en',
   interpolation: {
     escapeValue: false,
   },
@@ -47,23 +44,23 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <Navbar/>
-              <Home/>
-              <Programs/>
-              <RoadMap/>
-              <AboutUs/>
-              <Discord/>
+              <Navbar />
+              <Home />
+              <Programs />
+              <RoadMap />
+              <AboutUs />
+              <Discord />
               <OurMethodology />
-              <Newsletter/>
-              <Fqa/>
-              <Footer/>
+              <Newsletter />
+              <Fqa />
+              <Footer />
             </>
           } />
           <Route path="/Talk" element={<Talk />} />
           <Route path="/Terms&Conditions" element={<Terms />} />
           <Route path="/Subscription" element={<Subscription />} />
           <Route path="/Privacy&Policy" element={<Privacy />} />
-          <Route path="/blockchain" element={<Bdp/>} />
+          <Route path="/blockchain" element={<Bdp />} />
         </Routes>
       </BrowserRouter>
     </>

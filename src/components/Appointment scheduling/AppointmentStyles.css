@@ -23,23 +23,23 @@
 .appointment-details {
     margin-top: 20px;
     color: #211B59;
-    text-align: center; 
+    text-align: center;
     margin-left: 25rem;
 }
 
 .appointment-details h1 {
-    width: 100%; 
+    width: 100%;
 }
 
 .appointment-details p {
     padding: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .appointment-details .contact-info {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 
@@ -58,7 +58,7 @@
     .appointment-details {
         margin-left: 4rem;
     }
-    
+
     .appointment-details p {
         font-size: 1.6rem;
     }
@@ -68,6 +68,6 @@
     }
 }
 
-.appointment-details + .schedulingAppointment {
+.appointment-details+.schedulingAppointment {
     margin-top: 20px;
 }

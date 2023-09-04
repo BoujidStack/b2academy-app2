@@ -3,6 +3,7 @@
 :root {
   --primary-color: #171a20cc;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -55,5 +56,3 @@ h3 {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #211B59;
 }
-
-

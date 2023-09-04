@@ -14,7 +14,7 @@ function Subscription() {
 
     return (
         <>
-            <NavbarTwo/>
+            <NavbarTwo />
             <div name='Subscription' className='Subscription'>
                 <div className='content-Subscription'>
                     <div className='SubscriptionCentered-content '>
@@ -23,7 +23,7 @@ function Subscription() {
                     </div>
                 </div>
             </div>
-            <SubscriptionCards/>
+            <SubscriptionCards />
         </>
 
     )

@@ -59,7 +59,7 @@ function NavbarTwo() {
         </div>
 
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-          
+
           <li>
             <div className="language-dropdown">
               <div className="selected-language" onClick={handleLanguageSelect}>

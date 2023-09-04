@@ -1,6 +1,5 @@
 import React from 'react'
 import './AboutUsStyles.css'
-import logoAboutUs from '../../assets/imgAboutUs.png'
 import { useTranslation } from 'react-i18next';
 
 const AboutUs = () => {

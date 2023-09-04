@@ -24,7 +24,7 @@ const Enrolltoday = () => {
           </div>
         </div>
         <div className="image-section" data-aos="zoom-in-up" data-aos-duration="1000">
-          <img src={imgEnrolltoday}/>
+          <img src={imgEnrolltoday} />
         </div>
       </div>
       {showModal && <ModalOverlayEnroll onClose={handleCloseModal} />}

@@ -25,7 +25,7 @@ const FooterTwo = () => {
 
     const handleGoToHomePage = () => {
         navigate('/');
-      };
+    };
 
     const handleGoToTalkPage = () => {
         navigate('/Talk');

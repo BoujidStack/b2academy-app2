@@ -140,7 +140,7 @@ function ModalOverlayPrograms({ onClose }) {
                                 checked={isChecked}
                                 onChange={handleCheckboxChange}
                             />
-                             {t('ModalOverlayPrograms.Terms and Conditions')}
+                            {t('ModalOverlayPrograms.Terms and Conditions')}
                         </label>
                     </div>
                     {errorMessage && <p className={`error-message ${isChecked ? '' : 'red-text'}`}>{errorMessage}</p>}

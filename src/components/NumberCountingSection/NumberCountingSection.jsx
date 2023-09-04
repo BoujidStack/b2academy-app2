@@ -131,7 +131,7 @@ const NumberCountingSection = () => {
         <p className='Brochure-text' data-aos="fade-down" data-aos-duration="1000">
           {t('Brochure.description')}
         </p>
-        <p className='Brochure-text'  data-aos="fade-down" data-aos-duration="1000">
+        <p className='Brochure-text' data-aos="fade-down" data-aos-duration="1000">
           {t('Brochure.description2')}
         </p>
         <div className='Brochure-input' data-aos="zoom-in" data-aos-duration="1000">

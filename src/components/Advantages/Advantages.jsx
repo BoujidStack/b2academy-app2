@@ -79,9 +79,9 @@ const Advantages = () => {
                 <div className="advantages-card-NFT" data-aos="fade-up" data-aos-duration="1000">
                     <img src={nftImg} alt="nftImg" height={300} width={300} />
                     <h4>
-                    {t('advantages.advantages-card-NFT')}
+                        {t('advantages.advantages-card-NFT')}
                     </h4>
-                    <br/>
+                    <br />
                 </div>
             </div>
         </div>
