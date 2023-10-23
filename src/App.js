@@ -19,6 +19,7 @@ import frTranslation from './components/Languages/fr.json';
 import Terms from './components/Terms and conditions/Terms';
 import Privacy from './components/Privacy policy/Privacy';
 import Subscription from './components/Subscription/Subscription';
+import ContactUs from './components/Contact Us/ContactUs';
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -52,6 +53,7 @@ function App() {
               <Discord />
               <OurMethodology />
               <Newsletter />
+              <ContactUs/>
               <Fqa />
               <Footer />
             </>

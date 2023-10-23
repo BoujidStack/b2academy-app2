@@ -11,7 +11,6 @@ import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo';
 
 const Talk = () => {
     const [nav, setNav] = useState(false)
-    const [slide, setSlide] = useState(false)
     const { t } = useTranslation();
 
 
@@ -21,23 +20,6 @@ const Talk = () => {
     }
 
 
-    const handleNav = () => {
-        setNav(!nav)
-        setSlide(!slide)
-    }
-
-
-    const [selectedLanguage, setSelectedLanguage] = useState('GB');
-    const handleLanguageSelect = (language) => {
-        setSelectedLanguage(language);
-    };
-
-
-    const navigate = useNavigate();
-
-    const handleGoToTalkPage = () => {
-        navigate('/');
-    };
 
     return (
         <>

@@ -172,6 +172,7 @@
         "lastName": "Last Name",
         "email": "Email",
         "phoneNumber": "Phone Number",
+        "message":"Message",
         "Terms and Conditions": "I accept the Terms and Conditions and the Privacy Policy",
         "errorMessage": "Please accept the Terms and Conditions and the Privacy Policy.",
         "button": "Proceed to payment"
@@ -187,7 +188,7 @@
         "errorMessage": "Please accept the Terms and Conditions and the Privacy Policy.",
         "button": "Send"
     },
-    "ModalOverlayPrograms": {
+    "ContactUs": {
         "title": "Request more information about our programs",
         "description": "Fill out the following form and we will get in touch with you as soon as possible.",
         "firstName": "First Name",

@@ -43,11 +43,10 @@
     justify-content: center;
 }
 
-
-.input {
+.input, .textarea {
     width: 100%;
-    max-width: 220px;
-    height: 45px;
+    max-width: 450px; /* Set the same maximum width for both inputs and textarea */
+    height: 100px; /* Adjust the height as needed */
     padding: 12px;
     border-radius: 12px;
     border: 1.5px solid lightgrey;
@@ -58,23 +57,22 @@
 
 .input[type="email"],
 .input[type="tel"] {
-    width: 100%;
-    max-width: 450px;
+    height: 45px; /* Adjust the height as needed */
 }
 
-
-.input:hover {
+.input:hover, .textarea:hover {
     border: 2px solid lightgrey;
     box-shadow: 0px 0px 20px -17px;
 }
 
-.input:active {
+.input:active, .textarea:active {
     transform: scale(0.95);
 }
 
-.input:focus {
+.input:focus, .textarea:focus {
     border: 2px solid #211b59;
 }
+
 
 .terms {
     color: #0277b5;

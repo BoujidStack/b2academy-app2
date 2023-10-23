@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube} from 'react-icons/fa';
 import './FooterStyle.css';
 import logo from '../../assets/B2Academy-logo.png';
 import { Link } from 'react-scroll'
@@ -44,11 +44,10 @@ const Footer = () => {
                         <Link onClick={handleClose} activeClass="active" to="home" spy={true} smooth={true} duration={500}><img src={logo} alt='logo' className="logo_name" /></Link>
                     </div>
                     <div className="media-icons">
-                        <a href="#"><FaFacebook /></a>
-                        <a href="#"><FaTwitter /></a>
-                        <a href="#"><FaInstagram /></a>
+                        <a href="https://www.facebook.com/profile.php?id=61552695807806"><FaFacebook /></a>
                         <a href="#"><FaLinkedin /></a>
-                        <a href="#"><FaYoutube /></a>
+                        <a href="#"><FaInstagram /></a>
+                        <a href="https://www.youtube.com/channel/UCY8XFWyBLeRNze3yhSp-7oA"><FaYoutube /></a>
                     </div>
                 </div>
                 <div className="link-boxes">
@@ -64,7 +63,7 @@ const Footer = () => {
                         <li><a href='#' className='animated-ligne'>Login</a></li>
                         <li onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
                         <li><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a href="#">FQA</a></Link></li>
-                        <li onClick={() => setShowModal(true)}><a>{t('footer.ContactUs')}</a></li>
+                        <li onClick={() => setShowModal(true)}><Link onClick={handleClose} activeClass="active" to="contactUs" spy={true} smooth={true} duration={500}><a>{t('footer.ContactUs')}</a></Link></li>
                     </ul>
                     <ul className="box">
                         <li className="link_name">Legal</li>

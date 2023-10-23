@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaBars, FaFacebook, FaTimes, FaInstagram, FaLinkedin, FaGithub, FaChevronDown } from 'react-icons/fa';
+import { FaBars, FaFacebook, FaTimes, FaYoutube, FaLinkedin,  FaChevronDown } from 'react-icons/fa';
 import './NavbarStyles.css';
 import { Link } from 'react-scroll';
 import logo from '../../assets/B2Academy-logo.png';
@@ -123,9 +123,8 @@ const Navbar = () => {
             </button>
             <div className="social-icons">
               <FaFacebook className="icon" />
-              <FaInstagram className="icon" />
+              <FaYoutube className="icon" />
               <FaLinkedin className="icon" />
-              <FaGithub className="icon" />
             </div>
           </div>
         </ul>

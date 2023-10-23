@@ -7,6 +7,7 @@ import logo from '../../assets/B2Academy-logo.png';
 import { Link } from 'react-scroll'
 import ModalOverlayPrograms from '../ModalOverlayRquestPrograms/ModalOverlayPrograms';
 import { useNavigate } from 'react-router-dom';
+import FooterTwo from '../footerForTalk&Bdp/FooterTwo';
 
 function Terms() {
     const { t } = useTranslation();
@@ -71,46 +72,7 @@ function Terms() {
                     <p>{t('Terms&Conditions.textTitle11')}</p>
                 </div>
             </div>
-            <footer>
-                <div className="content">
-                    <hr className='line' />
-                    <div className="top">
-                        <div className="logo-details">
-                            <i className="fab fa-slack"></i>
-                            <Link onClick={handleClose} activeClass="active" to="home" spy={true} smooth={true} duration={500}><img onClick={handleGoToHomePage} src={logo} alt='logo' className="logo_name" /></Link>
-                        </div>
-                        <div className="media-icons">
-                            <a href="#"><FaFacebook /></a>
-                            <a href="#"><FaTwitter /></a>
-                            <a href="#"><FaInstagram /></a>
-                            <a href="#"><FaLinkedin /></a>
-                            <a href="#"><FaYoutube /></a>
-                        </div>
-                    </div>
-                    <div className="link-boxesTwo">
-                        <ul className="boxTwo">
-                            <li className="link_name">Contact</li>
-                            <li className='Contactlinks'><a href='#' className='animated-ligne'>Login</a></li>
-                            <li className='Contactlinks' onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
-                            <li className='Contactlinks' onClick={() => setShowModal(true)}><a>{t('footer.ContactUs')}</a></li>
-                        </ul>
-                        <ul className="boxTwo Legal">
-                            <li className="link_name">Legal</li>
-                            <li className='Contactlinks' onClick={handleGoToTermsPage}><a>{t('footer.terms and conditions')}</a></li>
-                            <li className='Contactlinks' onClick={handleGoToPrivacyPage}><a>{t('footer.Privacy policy')}</a></li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div className="bottom-details">
-                    <div className="bottom_text">
-                        <span className="copyright_text">
-                            {t('footer.Copyright')}
-                        </span>
-                    </div>
-                </div>
-                {showModal && <ModalOverlayPrograms onClose={handleCloseModal} />}
-            </footer>
+            <FooterTwo/>
         </div>
     );
 }

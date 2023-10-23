@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import './FooterTwoStyles.css';
 import logo from '../../assets/B2Academy-logo.png';
 import { Link } from 'react-scroll'
@@ -48,11 +48,10 @@ const FooterTwo = () => {
                         <Link onClick={handleClose} activeClass="active" to="home" spy={true} smooth={true} duration={500}><img onClick={handleGoToHomePage} src={logo} alt='logo' className="logo_name" /></Link>
                     </div>
                     <div className="media-icons">
-                        <a href="#"><FaFacebook /></a>
-                        <a href="#"><FaTwitter /></a>
-                        <a href="#"><FaInstagram /></a>
+                        <a href="https://www.facebook.com/profile.php?id=61552695807806"><FaFacebook /></a>
                         <a href="#"><FaLinkedin /></a>
-                        <a href="#"><FaYoutube /></a>
+                        <a href="#"><FaInstagram /></a>
+                        <a href="https://www.youtube.com/channel/UCY8XFWyBLeRNze3yhSp-7oA"><FaYoutube /></a>
                     </div>
                 </div>
                 <div className="link-boxesTwo">
@@ -61,7 +60,6 @@ const FooterTwo = () => {
                         <li className='Contactlinks'><a href='#' className='animated-ligne'>Login</a></li>
                         <li className='Contactlinks' onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
                         <li className='Contactlinks'><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a>FQA</a></Link></li>
-                        <li className='Contactlinks' onClick={() => setShowModal(true)}><a>{t('footer.ContactUs')}</a></li>
                     </ul>
                     <ul className="boxTwo Legal">
                         <li className="link_name">Legal</li>

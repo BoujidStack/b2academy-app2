@@ -10,6 +10,8 @@ function ModalOverlayEnroll({ onClose }) {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
+    const [message, setMessage] = useState(''); // New state variable for the message
+
     const [isChecked, setIsChecked] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
     const { t } = useTranslation();
@@ -123,6 +125,16 @@ function ModalOverlayEnroll({ onClose }) {
                             placeholder={t('ModalOverlayEnroll.phoneNumber')}
                             value={phoneNumber}
                             onChange={(e) => setPhoneNumber(e.target.value)}
+                            required
+                        />
+                    </div>
+                    <div className="form-group">
+                        <textarea
+                            className='textarea'  // Apply the 'textarea' class here
+                            id="message"
+                            placeholder={t('ModalOverlayEnroll.message')}
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
                             required
                         />
                     </div>
