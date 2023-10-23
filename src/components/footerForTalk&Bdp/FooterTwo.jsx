@@ -60,6 +60,7 @@ const FooterTwo = () => {
                         <li className='Contactlinks'><a href='#' className='animated-ligne'>Login</a></li>
                         <li className='Contactlinks' onClick={handleGoToTalkPage}><a>{t('footer.letsTalk')}</a></li>
                         <li className='Contactlinks'><Link onClick={handleClose} activeClass="active" to="fqa" spy={true} smooth={true} duration={500}><a>FQA</a></Link></li>
+                        <li className='Contactlinks' onClick={() => setShowModal(true)}><Link onClick={handleClose} activeClass="active" to="contactUs" spy={true} smooth={true} duration={500}><a>{t('footer.ContactUs')}</a></Link></li>
                     </ul>
                     <ul className="boxTwo Legal">
                         <li className="link_name">Legal</li>

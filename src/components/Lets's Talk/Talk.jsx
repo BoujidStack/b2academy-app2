@@ -8,6 +8,7 @@ import { Link } from 'react-scroll'
 import { useTranslation } from 'react-i18next';
 import FooterTwo from '../footerForTalk&Bdp/FooterTwo';
 import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo';
+import ContactUs from '../Contact Us/ContactUs';
 
 const Talk = () => {
     const [nav, setNav] = useState(false)
@@ -35,6 +36,7 @@ const Talk = () => {
             </div>
             <Appointment />
             <Newsletter />
+            <ContactUs/>
             <Fqa />
             <FooterTwo />
         </>
