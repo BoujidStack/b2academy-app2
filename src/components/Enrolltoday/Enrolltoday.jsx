@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 const Enrolltoday = () => {
   const [showModal, setShowModal] = useState(false);
   const { t } = useTranslation();
-
   const handleCloseModal = () => {
     setShowModal(false);
   };

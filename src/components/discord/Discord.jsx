@@ -19,9 +19,6 @@ const Discord = () => {
     }, []);
     return (
         <div name='discord' className='discord'>
-
-
-
             <div className={`light-button ${isLightOn ? 'on' : ''}`}>
                 <button className="bt" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div className="light-holder">
@@ -36,7 +33,7 @@ const Discord = () => {
                     </div>
                 </button>
             </div>
-
+            
             <div className='discord-content'>
                 <h1 data-aos="fade-left" data-aos-duration="1000">{t('discord.title')}</h1>
                 <p data-aos="fade-left" data-aos-duration="1000" dangerouslySetInnerHTML={{ __html: t('discord.description') }}></p>
@@ -53,8 +50,6 @@ const Discord = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 }

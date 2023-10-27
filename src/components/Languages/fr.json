@@ -94,7 +94,7 @@
     "Appointment": {
         "title": "Planification de rendez-vous",
         "description": "Obtenez un accompagnement pour votre projet de formation en blockchain avec nos conseillers ",
-        "email": "Bonjour@B2Academy.com"
+        "email": "Contact@B2Academy.net"
     },
     "Bdp": {
         "title": "Apprenez toutes les compétences pour développer une application blockchain",
@@ -172,7 +172,7 @@
         "lastName": "Nom",
         "email": "E-mail",
         "phoneNumber": "Numéro de téléphone",
-        "message":"Message",
+        "message": "Message",
         "Terms and Conditions": "J'accepte les Conditions générales d'utilisation et la Politique de confidentialité",
         "errorMessage": "Veuillez accepter les Conditions générales d'utilisation et la Politique de confidentialité.",
         "button": "Passer au paiement"
@@ -184,17 +184,20 @@
         "lastName": "Nom de famille",
         "email": "E-mail",
         "phoneNumber": "Numéro de téléphone",
+        "fieldofactivity": "Domaine d'activité",
         "Terms and Conditions": "J'accepte les Conditions générales et la Politique de confidentialité",
         "errorMessage": "Veuillez accepter les Conditions générales et la Politique de confidentialité.",
         "button": "Envoyer"
     },
     "ContactUs": {
+        "ContactUstitle": "Contactez-nous",
         "title": "Demandez plus d'informations sur nos programmes",
         "description": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible.",
         "firstName": "Prénom",
         "lastName": "Nom",
         "email": "E-mail",
         "phoneNumber": "Numéro de téléphone",
+        "message": "message",
         "Terms and Conditions": "J'accepte les Conditions générales d'utilisation et la Politique de confidentialité",
         "errorMessage": "Veuillez accepter les Conditions générales d'utilisation et la Politique de confidentialité.",
         "button": "Envoyer"

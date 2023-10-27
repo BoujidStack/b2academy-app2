@@ -2,62 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 import './ModalOverlayBusinessesStyles.css';
-import { saveFormDataToOtherForm } from '../firebase/FirebaseUtils';
 import { useTranslation } from 'react-i18next';
-
-
 
 function ModalOverlayBusinesses({ onClose }) {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
+    const [fieldofactivity, setFieldofactivity] = useState('');
+    const [message, setMessage] = useState('');
     const [isChecked, setIsChecked] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
     const { t } = useTranslation();
-
-    useEffect(() => {
-        const formData = JSON.parse(localStorage.getItem('formData'));
-        if (formData) {
-            setFirstName(formData.firstName);
-            setLastName(formData.lastName);
-            setEmail(formData.email);
-            setPhoneNumber(formData.phoneNumber);
-            setIsChecked(formData.isChecked);
-        }
-    }, []);
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        if (isChecked) {
-            if (firstName && lastName && email && phoneNumber) {
-                console.log('Form submitted successfully!');
-                const formData = {
-                    firstName,
-                    lastName,
-                    email,
-                    phoneNumber,
-                    isChecked,
-                };
-
-                await saveFormDataToOtherForm(formData);
-
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Your info has been sent',
-                    showConfirmButton: false,
-                    timer: 1500
-                }).then(() => {
-                    onClose();
-                });
-            } else {
-                setErrorMessage('Please fill in all the required fields.');
-            }
-        } else {
-            setErrorMessage(t('ModalOverlayBusinesses.errorMessage'));
-        }
-    };
-
     const handleCheckboxChange = (e) => {
         setIsChecked(e.target.checked);
         setErrorMessage('');
@@ -88,7 +44,7 @@ function ModalOverlayBusinesses({ onClose }) {
                         <FaTimes />
                     </button>
                 </div>
-                <form onSubmit={handleSubmit}>
+                <form>
                     <div className="form-group">
                         <div className="name-inputs">
                             <input
@@ -134,6 +90,27 @@ function ModalOverlayBusinesses({ onClose }) {
                         />
                     </div>
                     <div className="form-group">
+                        <input
+                            className='inputtext'
+                            type="text"
+                            id="fieldofactivity"
+                            placeholder={t('ModalOverlayBusinesses.fieldofactivity')}
+                            value={fieldofactivity}
+                            onChange={(e) => setFieldofactivity(e.target.value)}
+                            required
+                        />
+                    </div>
+                    <div className="form-group">
+                        <textarea
+                            className='textarea'
+                            id="message"
+                            placeholder={t('ModalOverlayBusinesses.message')}
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            required
+                        />
+                    </div>
+                    <div className="form-group">
                         <label>
                             <input
                                 type="checkbox"
@@ -146,7 +123,7 @@ function ModalOverlayBusinesses({ onClose }) {
                     {errorMessage && <p className={`error-message ${isChecked ? '' : 'red-text'}`}>{errorMessage}</p>}
                     <br />
                     <div className="form-group button-container">
-                        <button type="submit" className="modal-overlay-btn">
+                        <button type="button" className="modal-overlay-btn">
                             <span>{t('ModalOverlayBusinesses.button')}</span>
                         </button>
                     </div>

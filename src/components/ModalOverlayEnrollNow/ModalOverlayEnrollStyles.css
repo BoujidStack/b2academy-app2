@@ -43,10 +43,10 @@
     justify-content: center;
 }
 
-.input, .textarea {
+.input, .textarea{
     width: 100%;
-    max-width: 450px; /* Set the same maximum width for both inputs and textarea */
-    height: 100px; /* Adjust the height as needed */
+    max-width: 450px; 
+    height: 100px; 
     padding: 12px;
     border-radius: 12px;
     border: 1.5px solid lightgrey;
@@ -55,21 +55,34 @@
     box-shadow: 0px 0px 20px -18px;
 }
 
-.input[type="email"],
-.input[type="tel"] {
-    height: 45px; /* Adjust the height as needed */
+.selectinput{
+    width: 100%;
+    max-width: 450px; 
+    height: 50px; 
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
 }
 
-.input:hover, .textarea:hover {
+
+.input[type="email"],
+.input[type="tel"] {
+    height: 45px; 
+}
+
+.input:hover, .textarea:hover, .selectinput:hover{
     border: 2px solid lightgrey;
     box-shadow: 0px 0px 20px -17px;
 }
 
-.input:active, .textarea:active {
+.input:active, .textarea:active, .selectinput:active{
     transform: scale(0.95);
 }
 
-.input:focus, .textarea:focus {
+.input:focus, .textarea:focus, .selectinput:focus{
     border: 2px solid #211b59;
 }
 

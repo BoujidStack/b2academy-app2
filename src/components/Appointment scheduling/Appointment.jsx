@@ -23,7 +23,7 @@ const Appointment = () => {
                 <h1 data-aos="fade-right" data-aos-duration="1000">{t('Appointment.title')}</h1>
                 <p data-aos="fade-right" data-aos-duration="1000">{t('Appointment.description')} B<sup>2</sup>Academy</p>
                 <div className="contact-info" data-aos="fade-right" data-aos-duration="1000">
-                    <FaEnvelope />
+                    <FaEnvelope style={{ marginRight: '10px' }} />
                     <span>{t('Appointment.email')}</span>
                 </div>
             </div>

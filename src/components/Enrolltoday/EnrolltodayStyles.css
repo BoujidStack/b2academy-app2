@@ -6,14 +6,12 @@
   align-items: center;
 }
 
-
 .titleenrolltoday {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #211b59;
 }
-
 
 .containerEnrolltoday {
   width: 80%;

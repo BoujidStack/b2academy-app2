@@ -3,28 +3,22 @@ import './TalkStyles.css';
 import Newsletter from '../newsletter/Newsletter';
 import Fqa from '../FrequentlyAskedQuestions/Fqa';
 import Appointment from '../Appointment scheduling/Appointment';
-import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import { useTranslation } from 'react-i18next';
 import FooterTwo from '../footerForTalk&Bdp/FooterTwo';
-import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo';
+import Navbar from '../navbar/Navbar';
 import ContactUs from '../Contact Us/ContactUs';
 
 const Talk = () => {
     const [nav, setNav] = useState(false)
     const { t } = useTranslation();
-
-
-
     const handleClose = () => {
         setNav(!nav)
     }
 
-
-
     return (
         <>
-            <NavbarTwo />
+            <Navbar hideNavbarLinks={true} />
             <div name='talk' className='talk'>
                 <div className='content-talk'>
                     <div className='centered-content'>
@@ -36,7 +30,7 @@ const Talk = () => {
             </div>
             <Appointment />
             <Newsletter />
-            <ContactUs/>
+            <ContactUs />
             <Fqa />
             <FooterTwo />
         </>

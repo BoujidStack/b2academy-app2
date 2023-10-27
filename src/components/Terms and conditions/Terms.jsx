@@ -1,49 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './TermsStyles.css';
-import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo';
 import { useTranslation } from 'react-i18next';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import logo from '../../assets/B2Academy-logo.png';
-import { Link } from 'react-scroll'
-import ModalOverlayPrograms from '../ModalOverlayRquestPrograms/ModalOverlayPrograms';
-import { useNavigate } from 'react-router-dom';
 import FooterTwo from '../footerForTalk&Bdp/FooterTwo';
+import Navbar from '../navbar/Navbar';
 
 function Terms() {
     const { t } = useTranslation();
-    const [nav, setNav] = useState(false);
-    const [showModal, setShowModal] = useState(false);
-
-
-    const handleClose = () => {
-        setNav(!nav);
-    };
-
-    const handleCloseModal = () => {
-        setShowModal(false);
-    };
-
-    const navigate = useNavigate();
-
-    const handleGoToHomePage = () => {
-        navigate('/');
-    };
-
-    const handleGoToTalkPage = () => {
-        navigate('/Talk');
-    };
-
-    const handleGoToTermsPage = () => {
-        navigate('/Terms&Conditions');
-    };
-
-    const handleGoToPrivacyPage = () => {
-        navigate('/Privacy&Policy');
-    };
     return (
         <div>
             <div name="Terms" className="Terms">
-                <NavbarTwo />
+            <Navbar hideNavbarLinks={true} />
                 <div className="contentTerms">
                     <h1>{t('Terms&Conditions.title')}</h1>
                     <h2>{t('Terms&Conditions.titleText')}</h2>
@@ -72,7 +38,7 @@ function Terms() {
                     <p>{t('Terms&Conditions.textTitle11')}</p>
                 </div>
             </div>
-            <FooterTwo/>
+            <FooterTwo hideFQAContactLinks={true} />
         </div>
     );
 }

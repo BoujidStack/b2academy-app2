@@ -7,6 +7,7 @@ import AOS from 'aos';
 import Newsletter from '../newsletter/Newsletter';
 import Fqa from '../FrequentlyAskedQuestions/Fqa';
 import FooterTwo from '../footerForTalk&Bdp/FooterTwo';
+import ContactUs from '../Contact Us/ContactUs';
 
 
 function SubscriptionCards() {
@@ -51,6 +52,7 @@ function SubscriptionCards() {
         </div>
       </div>
       <Newsletter />
+      <ContactUs />
       <Fqa />
       <FooterTwo />
     </>

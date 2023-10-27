@@ -7,37 +7,37 @@ function ContactUs() {
 
   return (
     <div className="ContactUs" name="contactUs">
-      <h1>Contact Us</h1>
+      <h1 data-aos="fade-down" data-aos-duration="1000">{t('ContactUs.ContactUstitle')}</h1>
       <div className="modal-header">
-        <h2>{t('ContactUs.title')}</h2>
-        <p>{t('ContactUs.description')}</p>
+        <h2 data-aos="fade-right" data-aos-duration="1000">{t('ContactUs.title')}</h2>
+        <p data-aos="fade-left" data-aos-duration="1000">{t('ContactUs.description')}</p>
       </div>
       <form className='ContactUsform'>
-        <div className="form-group name-inputs">
-          <div className="form-group">
-            <input type="text" id="firstName" name="firstName" placeholder={t('ContactUs.firstName')} className="input" />
+        <div className="ContactUsform-group ContactUsname-inputs">
+          <div className="ContactUsform-group">
+            <input data-aos="fade" data-aos-duration="1000" type="text" id="firstName" name="firstName" placeholder={t('ContactUs.firstName')} className="ContactUsinput" />
           </div>
-          <div className="form-group">
-            <input type="text" id="lastName" name="lastName" placeholder={t('ContactUs.lastName')} className="input" />
+          <div className="ContactUsform-group">
+            <input data-aos="fade" data-aos-duration="1000" type="text" id="lastName" name="lastName" placeholder={t('ContactUs.lastName')} className="ContactUsinput" />
           </div>
         </div>
-        <div className="form-group">
-          <input type="email" id="email" name="email" placeholder={t('ContactUs.email')} className="input" />
+        <div className="ContactUsform-group">
+          <input data-aos="fade" data-aos-duration="1000" type="email" id="email" name="email" placeholder={t('ContactUs.email')} className="ContactUsinput" />
         </div>
-        <div className="form-group">
-          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder={t('ContactUs.phoneNumber')} className="input" />
+        <div className="ContactUsform-group">
+          <input data-aos="fade" data-aos-duration="1000" type="tel" id="phoneNumber" name="phoneNumber" placeholder={t('ContactUs.phoneNumber')} className="ContactUsinput" />
         </div>
-        <div className="form-group">
-          <textarea id="message" name="message" placeholder='Message' className="textarea"></textarea>
+        <div className="ContactUsform-group">
+          <textarea data-aos="fade" data-aos-duration="1000" id="message" name="message" placeholder='Message' className="ContactUstextarea"></textarea>
         </div>
-        <div className="form-group">
-          <label htmlFor="terms" className="checkbox-label">
-            <input type="checkbox" id="terms" name="terms" className="checkbox" />
+        <div className="ContactUsform-group" data-aos="fade" data-aos-duration="1000">
+          <label htmlFor="terms" className="ContactUscheckbox-label">
+            <input type="checkbox" id="terms" name="terms" className="ContactUscheckbox" />
             {t('ContactUs.Terms and Conditions')}
           </label>
         </div>
         <div className="form-group button-container">
-          <button type="submit" className="modal-overlay-btn">
+          <button type="button" className="modal-overlay-btn" data-aos="fade-up" data-aos-duration="1000">
             <span>{t('ContactUs.button')}</span>
           </button>
         </div>

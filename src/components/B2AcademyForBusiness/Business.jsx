@@ -9,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 const Business = () => {
   const [showModal, setShowModal] = useState(false);
   const { t } = useTranslation();
-
   const handleCloseModal = () => {
     setShowModal(false);
   };

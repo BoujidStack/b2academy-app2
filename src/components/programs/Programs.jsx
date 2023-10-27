@@ -22,6 +22,7 @@ const Programs = () => {
   const navigate = useNavigate();
   const handleGoToBdp = () => {
     navigate('/blockchain');
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -37,7 +38,7 @@ const Programs = () => {
             <div className="button-containerPrograms">
               <div>
                 <button className="ctaPrograms" onClick={handleGoToBdp}>
-                  <a href="#">
+                  <a>
                     <span className="hover-underline-animation">{t('programs.button')}</span>
                   </a>
                   <FaArrowRight />

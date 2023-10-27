@@ -9,21 +9,19 @@ import Advantages from '../Advantages/Advantages'
 import Business from '../B2AcademyForBusiness/Business'
 import ProgramModules from '../programModules/ProgramModules'
 import { useTranslation } from 'react-i18next';
-import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo'
 import FooterTwo from '../footerForTalk&Bdp/FooterTwo'
+import Navbar from '../navbar/Navbar'
+import ContactUs from '../Contact Us/ContactUs'
 
 const Bdp = () => {
     const { t } = useTranslation();
-    const [nav, setNav] = useState(false)
     const [showModal, setShowModal] = useState(false);
-    const handleClose = () => {
-        setNav(!nav);
-    };
     const handleCloseModal = () => {
         setShowModal(false);
     };
     return (
-        <> <NavbarTwo />
+        <>
+            <Navbar hideNavbarLinks={true} />
             <div name='Bdp' className='Bdp'>
                 <div className='content-Bdp'>
                     <div className='centered-content'>
@@ -42,6 +40,7 @@ const Bdp = () => {
             <Advantages />
             <Business />
             <Newsletter />
+            <ContactUs />
             <Fqa />
             <FooterTwo />
         </>

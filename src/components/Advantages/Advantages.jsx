@@ -11,7 +11,6 @@ import { useTranslation } from 'react-i18next';
 
 const Advantages = () => {
     const { t } = useTranslation();
-
     return (
         <div className="advantages-container">
             <div className='content-advantages'>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import './ModalOverlayEnrollStyles.css';
-import { saveFormDataToFirestore } from '../firebase/FirebaseUtils';
 import { useTranslation } from 'react-i18next';
 
 
@@ -10,8 +9,7 @@ function ModalOverlayEnroll({ onClose }) {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
-    const [message, setMessage] = useState(''); // New state variable for the message
-
+    const [message, setMessage] = useState('');
     const [isChecked, setIsChecked] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
     const { t } = useTranslation();
@@ -26,32 +24,6 @@ function ModalOverlayEnroll({ onClose }) {
             setIsChecked(formData.isChecked);
         }
     }, []);
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        if (isChecked) {
-            if (firstName && lastName && email && phoneNumber) {
-                console.log('Form submitted successfully!');
-                const formData = {
-                    firstName,
-                    lastName,
-                    email,
-                    phoneNumber,
-                    isChecked,
-                };
-
-                await saveFormDataToFirestore(formData);
-
-                window.location.href = "/Subscription";
-            } else {
-                setErrorMessage('Please fill in all the required fields.');
-            }
-        } else {
-            setErrorMessage(t('ModalOverlayEnroll.errorMessage'));
-        }
-    };
-
-
 
     const handleCheckboxChange = (e) => {
         setIsChecked(e.target.checked);
@@ -83,7 +55,7 @@ function ModalOverlayEnroll({ onClose }) {
                         <FaTimes />
                     </button>
                 </div>
-                <form onSubmit={handleSubmit}>
+                <form >
                     <div className="form-group">
                         <div className="name-inputs">
                             <input
@@ -130,7 +102,7 @@ function ModalOverlayEnroll({ onClose }) {
                     </div>
                     <div className="form-group">
                         <textarea
-                            className='textarea'  // Apply the 'textarea' class here
+                            className='textarea'
                             id="message"
                             placeholder={t('ModalOverlayEnroll.message')}
                             value={message}
@@ -151,7 +123,7 @@ function ModalOverlayEnroll({ onClose }) {
                     {errorMessage && <p className={`error-message ${isChecked ? '' : 'red-text'}`}>{errorMessage}</p>}
                     <br />
                     <div className="form-group button-container">
-                        <button type="submit" className="modal-overlay-btn">
+                        <button type="button" className="modal-overlay-btn">
                             <span>{t('ModalOverlayEnroll.button')}</span>
                         </button>
                     </div>

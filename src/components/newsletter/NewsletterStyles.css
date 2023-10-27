@@ -9,11 +9,9 @@
     color: #211b59;
 }
 
-
 .newsletter-title {
     font-size: 50px;
 }
-
 
 .newsletter-input {
     display: flex;
@@ -32,7 +30,6 @@
     border: 1px solid #211b5933;
     background-color: #C6EEFF;
 }
-
 
 .button-newsletter {
     outline: none;
@@ -109,7 +106,7 @@
 }
 
 .social-media-icons a:nth-child(2) {
-    color: #1da1f2;
+    color: #0077b5;
 }
 
 .social-media-icons a:nth-child(3) {
@@ -117,10 +114,6 @@
 }
 
 .social-media-icons a:nth-child(4) {
-    color: #0077b5;
-}
-
-.social-media-icons a:nth-child(5) {
     color: #ff0000;
 }
 

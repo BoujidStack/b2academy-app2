@@ -2,8 +2,8 @@ import './SubscriptionStyles.css';
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { useTranslation } from 'react-i18next';
-import NavbarTwo from '../navbarForTalk&Bdp/NavbarTwo';
 import SubscriptionCards from '../SubscriptionCards/SubscriptionCards';
+import Navbar from '../navbar/Navbar';
 
 function Subscription() {
     const [nav, setNav] = useState(false)
@@ -14,7 +14,7 @@ function Subscription() {
 
     return (
         <>
-            <NavbarTwo />
+            <Navbar hideNavbarLinks={true} />
             <div name='Subscription' className='Subscription'>
                 <div className='content-Subscription'>
                     <div className='SubscriptionCentered-content '>

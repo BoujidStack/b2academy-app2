@@ -19,7 +19,6 @@ const Home = () => {
     const [nav, setNav] = useState(false);
     const { t } = useTranslation();
 
-
     const handleClose = () => {
         setNav(!nav);
     };
@@ -40,12 +39,10 @@ const Home = () => {
                 <br />
                 <div className="button-container">
                     <Link onClick={handleClose} activeClass="active" to="programs" spy={true} smooth={true} duration={500}><button id='btn-home'><span>{t('home.button')}</span></button></Link>
-
                     <Link onClick={handleClose} activeClass="active" to="aboutUs" spy={true} smooth={true} duration={500}><button className="cta">
                         <span className="hover-underline-animation">{t('home.buttonTwo')}</span>
                         <FaArrowRight />
                     </button></Link>
-
                 </div>
             </div>
             <div className='right' data-aos="fade-left" data-aos-duration="1000">
